@@ -136,7 +136,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:13px;heigh
 .dtbl td{padding:6px 9px;font-size:11px;color:var(--ts);border-bottom:1px solid rgba(255,255,255,.025)}
 .dtbl tr{cursor:pointer;transition:background .12s}
 .dtbl tr:hover td{background:var(--adim);color:var(--tp)}
-.cpill{display:inline-block;padding:1px 6px;border-radius:20px;font-size:9px;font-weight:500}
+.cpill{display:inline-block;padding:1px 6px;border-radius:20px;font-size:16px;font-weight:500}
 .cpill.high{background:var(--highbg);color:var(--high)}
 .cpill.med{background:var(--medbg);color:var(--med)}
 .cpill.low{background:var(--lowbg);color:var(--low)}
@@ -226,14 +226,15 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:13px;heigh
 .leaflet-popup-content-wrapper{background:var(--bg2)!important;border:1px solid var(--bdr)!important;border-radius:var(--r)!important;box-shadow:var(--shadow)!important;padding:0!important;color:var(--tp)!important}
 .leaflet-popup-content{margin:0!important;width:auto!important}
 .leaflet-popup-tip{background:var(--bg2)!important}
-
+.pop{display:flex;gap:8px;max-width:    820px;}
+.pop-body{max-width:800px;width: 700px;padding: 10px;}
 /* Popup */
-.pop{min-width:260px;max-width:320px}
+/* .pop{min-width:260px;max-width:320px} */
 .pop-hd{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 10px;border-bottom:1px solid var(--bdr)}
-.pop-id{font-family:var(--fui);font-weight:700;font-size:13px;color:var(--tp)}
-.pop-body{padding:10px 14px}
+.pop-id{font-family:var(--fui);font-weight:600;font-size:16px;color:var(--tp)}
+/* .pop-body{padding:10px 14px} */
 .pop-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;font-size:11px}
-.pop-k{color:var(--tm);font-size:10px}.pop-v{color:var(--tp);font-weight:500;font-size:11px;text-align:right;word-break:break-all}
+.pop-k{color:var(--tm);font-size:10px}.pop-v{color:var(--tp);font-weight:600;font-size:13px;text-align:right;word-break:break-all}
 .pop-img{margin:10px 14px;background:var(--card);border:1px solid var(--bdr);border-radius:8px;overflow:hidden}
 .pop-img-inner{position:relative;width:100%}
 .pop-img img{width:100%;display:block;border-radius:7px}
@@ -928,12 +929,20 @@ async function showPopup(f,ly){
   ].filter(Boolean);
 
   const content=`<div class="pop">
-    <div class="pop-hd">
-      <div class="pop-id">${p.id!=null?'DET-'+String(p.id).padStart(4,'0'):'—'}</div>
-      <span class="cpill ${k}">${(c*100).toFixed(1)}%</span>
-    </div>
+    
     ${imgSection}
     <div class="pop-body">
+      <div class="">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+
+          <div class="pop-id">${p.id!=null?'DET-'+String(p.id).padStart(4,'0'):'—'}</div>
+      <span class="cpill ${k}">${(c*100).toFixed(1)}%</span>
+      </div>
+      
+    </div>
+    <br>
+    <br>
+    <br>
       <div class="pop-row"><span class="pop-k">Confidence</span><span class="pop-v" style="color:${color}">${c.toFixed(4)}</span></div>
       <div class="pop-row"><span class="pop-k">Area (geo)</span><span class="pop-v">${(p.area_geo_sqm||0).toFixed(3)} m²</span></div>
       <div class="pop-row"><span class="pop-k">Centroid (WGS84)</span><span class="pop-v" style="font-size:9px">${p.lat.toFixed(6)}, ${p.lon.toFixed(6)}</span></div>

@@ -1,0 +1,8262 @@
+{
+  "metadata": {
+    "image_path": "D:/Orthomosaic/Dansomanclipped.tif",
+    "image_name": "Dansomanclipped.tif",
+    "dimensions": [
+      104408,
+      27641
+    ],
+    "bands": 3,
+    "epsg": "32630",
+    "proj4": "+proj=utm +zone=30 +datum=WGS84 +units=m +no_defs",
+    "bounds": {
+      "left": 802666.5972589103,
+      "bottom": 610806.1458195208,
+      "right": 804383.4928517103,
+      "top": 611260.6771876208
+    },
+    "pixel_size": {
+      "x": 0.01644410000000021,
+      "y": 0.01644410000000056
+    },
+    "processing_time_hours": 0.007845187584559123,
+    "tiles_processed": 9550,
+    "tiles_with_detections": 0,
+    "processing_completed": "2026-04-20T11:24:08.219978",
+    "total_detections": 255,
+    "confidence_threshold": 0.15,
+    "tile_size": 640,
+    "overlap": 0.15
+  },
+  "statistics": {
+    "detection_counts": {
+      "total": 255,
+      "merged_detections": 15
+    },
+    "confidence": {
+      "mean": 0.2260082243996508,
+      "median": 0.19630774855613708,
+      "std": 0.08463684229808768,
+      "min": 0.1501779854297638,
+      "max": 0.5815603733062744,
+      "percentiles": {
+        "25": 0.16994599252939224,
+        "50": 0.19630774855613708,
+        "75": 0.2475711777806282,
+        "90": 0.32519932985305783,
+        "95": 0.4144465982913968
+      },
+      "distribution": {
+        "0.15-0.25": 193,
+        "0.25-0.35": 39,
+        "0.35-0.45": 12,
+        "0.45-0.55": 9,
+        "0.55-0.65": 2,
+        "0.65-0.75": 0,
+        "0.75-0.85": 0,
+        "0.85-0.95": 0,
+        "0.95-1.00": 0
+      }
+    },
+    "area_pixels": {
+      "total": 19233343.47456932,
+      "mean": 75424.87637086007,
+      "median": 39884.19140625,
+      "std": 85416.30748207307,
+      "min": 822.236328125,
+      "max": 390575.84375
+    },
+    "area_geo": {
+      "total_sqm": 5192.6328125,
+      "mean_sqm": 20.36326593137255,
+      "median_sqm": 10.828125,
+      "min_sqm": 0.21875,
+      "max_sqm": 105.6953125
+    },
+    "spatial": {
+      "coverage_percentage": 0.6664495204758467,
+      "detection_density_per_megapixel": 0.08835937856880932,
+      "bbox_centers": {
+        "x_mean": 803431.8139705883,
+        "y_mean": 611013.8577205882
+      }
+    }
+  },
+  "detections": [
+    {
+      "bbox_pixel": [
+        16349.796875,
+        20821.728515625,
+        16451.580078125,
+        20939.90234375
+      ],
+      "bbox_geo": [
+        802935.4375,
+        610918.125,
+        802937.125,
+        610916.375
+      ],
+      "center_pixel": [
+        16400.6884765625,
+        20880.8154296875
+      ],
+      "center_geo": [
+        802936.28125,
+        610917.25
+      ],
+      "confidence": 0.5123798698186874,
+      "class": "plastic-waste",
+      "area_pixel": 12028.110752105713,
+      "area_geo": 2.953125,
+      "merged_from": 2,
+      "tile_index": 7288,
+      "tile_offset": [
+        16320,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007288_x16320_y20672_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        4257.623046875,
+        24739.28125,
+        4435.203125,
+        24936.28125
+      ],
+      "bbox_geo": [
+        802736.5625,
+        610853.875,
+        802739.5,
+        610850.625
+      ],
+      "center_pixel": [
+        4346.4130859375,
+        24837.78125
+      ],
+      "center_geo": [
+        802738.0,
+        610852.25
+      ],
+      "confidence": 0.5815603733062744,
+      "class": "plastic-waste",
+      "area_pixel": 34983.2734375,
+      "area_geo": 9.546875,
+      "tile_index": 8602,
+      "tile_offset": [
+        3808,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008602_x3808_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        5444.7431640625,
+        23247.841796875,
+        5602.3408203125,
+        23420.34765625
+      ],
+      "bbox_geo": [
+        802756.125,
+        610878.375,
+        802758.75,
+        610875.5
+      ],
+      "center_pixel": [
+        5523.5419921875,
+        23334.09375
+      ],
+      "center_geo": [
+        802757.4375,
+        610876.9375
+      ],
+      "confidence": 0.5679412484169006,
+      "class": "plastic-waste",
+      "area_pixel": 27186.51953125,
+      "area_geo": 7.546875,
+      "tile_index": 8032,
+      "tile_offset": [
+        5440,
+        22848
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008032_x5440_y22848_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        13592.1708984375,
+        20536.998046875,
+        13657.95703125,
+        20622.03125
+      ],
+      "bbox_geo": [
+        802890.125,
+        610922.8125,
+        802891.1875,
+        610921.625
+      ],
+      "center_pixel": [
+        13625.06396484375,
+        20579.5146484375
+      ],
+      "center_geo": [
+        802890.65625,
+        610922.21875
+      ],
+      "confidence": 0.3633827492594719,
+      "class": "plastic-waste",
+      "area_pixel": 5594.00559425354,
+      "area_geo": 1.26171875,
+      "merged_from": 2,
+      "tile_index": 7091,
+      "tile_offset": [
+        13056,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007091_x13056_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9248.0,
+        21736.673828125,
+        9352.947265625,
+        21855.541015625
+      ],
+      "bbox_geo": [
+        802818.6875,
+        610903.25,
+        802820.4375,
+        610901.3125
+      ],
+      "center_pixel": [
+        9300.4736328125,
+        21796.107421875
+      ],
+      "center_geo": [
+        802819.5625,
+        610902.25
+      ],
+      "confidence": 0.5263298749923706,
+      "class": "plastic-waste",
+      "area_pixel": 12474.7861328125,
+      "area_geo": 3.390625,
+      "tile_index": 7466,
+      "tile_offset": [
+        9248,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007466_x9248_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17430.197265625,
+        20540.93359375,
+        17645.75,
+        20748.08984375
+      ],
+      "bbox_geo": [
+        802953.25,
+        610922.875,
+        802956.8125,
+        610919.5
+      ],
+      "center_pixel": [
+        17537.97265625,
+        20644.51171875
+      ],
+      "center_geo": [
+        802955.0,
+        610921.1875
+      ],
+      "confidence": 0.5254935026168823,
+      "class": "plastic-waste",
+      "area_pixel": 44653.09765625,
+      "area_geo": 12.0234375,
+      "tile_index": 7099,
+      "tile_offset": [
+        17408,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007099_x17408_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        68993.5859375,
+        9502.83203125,
+        69101.84375,
+        9634.2646484375
+      ],
+      "bbox_geo": [
+        803801.125,
+        611104.4375,
+        803802.9375,
+        611102.25
+      ],
+      "center_pixel": [
+        69047.71875,
+        9568.548828125
+      ],
+      "center_geo": [
+        803802.0,
+        611103.375
+      ],
+      "confidence": 0.5177642107009888,
+      "class": "plastic-waste",
+      "area_pixel": 14228.607421875,
+      "area_geo": 3.96484375,
+      "tile_index": 3373,
+      "tile_offset": [
+        68544,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003373_x68544_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        102309.453125,
+        1896.134765625,
+        102465.2578125,
+        2131.91064453125
+      ],
+      "bbox_geo": [
+        804349.0,
+        611229.5,
+        804351.5625,
+        611225.5625
+      ],
+      "center_pixel": [
+        102387.359375,
+        2014.022705078125
+      ],
+      "center_geo": [
+        804350.25,
+        611227.5
+      ],
+      "confidence": 0.5060131549835205,
+      "class": "plastic-waste",
+      "area_pixel": 36734.98828125,
+      "area_geo": 10.08984375,
+      "tile_index": 761,
+      "tile_offset": [
+        102272,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000761_x102272_y1632_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9927.9169921875,
+        21972.744140625,
+        10045.603515625,
+        22089.3828125
+      ],
+      "bbox_geo": [
+        802829.875,
+        610899.375,
+        802831.8125,
+        610897.4375
+      ],
+      "center_pixel": [
+        9986.759765625,
+        22031.0625
+      ],
+      "center_geo": [
+        802830.875,
+        610898.375
+      ],
+      "confidence": 0.5002297163009644,
+      "class": "plastic-waste",
+      "area_pixel": 13726.7998046875,
+      "area_geo": 3.75390625,
+      "tile_index": 7658,
+      "tile_offset": [
+        9792,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007658_x9792_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100537.1328125,
+        1088.0,
+        100735.8046875,
+        1358.997314453125
+      ],
+      "bbox_geo": [
+        804319.8125,
+        611242.8125,
+        804323.0625,
+        611238.375
+      ],
+      "center_pixel": [
+        100636.46875,
+        1223.4986572265625
+      ],
+      "center_geo": [
+        804321.4375,
+        611240.625
+      ],
+      "confidence": 0.48798394203186035,
+      "class": "plastic-waste",
+      "area_pixel": 53839.54296875,
+      "area_geo": 14.421875,
+      "tile_index": 566,
+      "tile_offset": [
+        100096,
+        1088
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000566_x100096_y1088_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29739.51953125,
+        16659.06640625,
+        29801.19921875,
+        16712.85546875
+      ],
+      "bbox_geo": [
+        803155.6875,
+        610986.75,
+        803156.6875,
+        610985.875
+      ],
+      "center_pixel": [
+        29770.359375,
+        16685.9609375
+      ],
+      "center_geo": [
+        803156.1875,
+        610986.3125
+      ],
+      "confidence": 0.4846060276031494,
+      "class": "plastic-waste",
+      "area_pixel": 3317.692626953125,
+      "area_geo": 0.875,
+      "tile_index": 5784,
+      "tile_offset": [
+        29376,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005784_x29376_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        15547.6630859375,
+        20762.642578125,
+        15687.765625,
+        20881.73828125
+      ],
+      "bbox_geo": [
+        802922.25,
+        610919.25,
+        802924.5625,
+        610917.3125
+      ],
+      "center_pixel": [
+        15617.71484375,
+        20822.19140625
+      ],
+      "center_geo": [
+        802923.375,
+        610918.25
+      ],
+      "confidence": 0.4784547686576843,
+      "class": "plastic-waste",
+      "area_pixel": 16685.611328125,
+      "area_geo": 4.48046875,
+      "tile_index": 7286,
+      "tile_offset": [
+        15232,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007286_x15232_y20672_dets4.jpg"
+    },
+    {
+      "bbox_pixel": [
+        10492.2021484375,
+        22158.244140625,
+        10711.2880859375,
+        22324.0078125
+      ],
+      "bbox_geo": [
+        802839.125,
+        610896.3125,
+        802842.75,
+        610893.625
+      ],
+      "center_pixel": [
+        10601.7451171875,
+        22241.125
+      ],
+      "center_geo": [
+        802840.9375,
+        610895.0
+      ],
+      "confidence": 0.4415711760520935,
+      "class": "plastic-waste",
+      "area_pixel": 36316.48828125,
+      "area_geo": 9.7421875,
+      "tile_index": 7659,
+      "tile_offset": [
+        10336,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007659_x10336_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29871.337890625,
+        17800.55859375,
+        30015.134765625,
+        17909.5546875
+      ],
+      "bbox_geo": [
+        803157.8125,
+        610968.0,
+        803160.1875,
+        610966.1875
+      ],
+      "center_pixel": [
+        29943.236328125,
+        17855.056640625
+      ],
+      "center_geo": [
+        803159.0,
+        610967.125
+      ],
+      "confidence": 0.42680156230926514,
+      "class": "plastic-waste",
+      "area_pixel": 15673.2978515625,
+      "area_geo": 4.3046875,
+      "tile_index": 6166,
+      "tile_offset": [
+        29376,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006166_x29376_y17408_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        12376.71875,
+        21760.0,
+        12607.728515625,
+        21995.322265625
+      ],
+      "bbox_geo": [
+        802870.125,
+        610902.875,
+        802873.875,
+        610899.0
+      ],
+      "center_pixel": [
+        12492.2236328125,
+        21877.66015625
+      ],
+      "center_geo": [
+        802872.0,
+        610900.9375
+      ],
+      "confidence": 0.4091516137123108,
+      "class": "plastic-waste",
+      "area_pixel": 54361.7421875,
+      "area_geo": 14.53125,
+      "tile_index": 7662,
+      "tile_offset": [
+        11968,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007662_x11968_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100640.0,
+        234.326904296875,
+        101273.3828125,
+        640.0
+      ],
+      "bbox_geo": [
+        804321.5625,
+        611256.8125,
+        804332.0,
+        611250.1875
+      ],
+      "center_pixel": [
+        100956.6875,
+        437.1634521484375
+      ],
+      "center_geo": [
+        804326.75,
+        611253.5
+      ],
+      "confidence": 0.40189918875694275,
+      "class": "plastic-waste",
+      "area_pixel": 256946.359375,
+      "area_geo": 69.1484375,
+      "tile_index": 185,
+      "tile_offset": [
+        100640,
+        0
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000185_x100640_y0_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        7349.1533203125,
+        22304.0,
+        7621.9404296875,
+        22413.763671875
+      ],
+      "bbox_geo": [
+        802787.4375,
+        610893.9375,
+        802791.9375,
+        610892.125
+      ],
+      "center_pixel": [
+        7485.546875,
+        22358.8828125
+      ],
+      "center_geo": [
+        802789.6875,
+        610893.0
+      ],
+      "confidence": 0.39440667629241943,
+      "class": "plastic-waste",
+      "area_pixel": 29942.115234375,
+      "area_geo": 8.15625,
+      "tile_index": 7844,
+      "tile_offset": [
+        7072,
+        22304
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007844_x7072_y22304_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        11965.9501953125,
+        20308.07421875,
+        12079.33984375,
+        20440.59375
+      ],
+      "bbox_geo": [
+        802863.375,
+        610926.625,
+        802865.1875,
+        610924.5625
+      ],
+      "center_pixel": [
+        12022.64501953125,
+        20374.333984375
+      ],
+      "center_geo": [
+        802864.28125,
+        610925.59375
+      ],
+      "confidence": 0.2826080322265625,
+      "class": "plastic-waste",
+      "area_pixel": 15026.343059539795,
+      "area_geo": 3.73828125,
+      "merged_from": 2,
+      "tile_index": 7088,
+      "tile_offset": [
+        11424,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007088_x11424_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        12513.0341796875,
+        21760.076171875,
+        12741.2744140625,
+        21981.75390625
+      ],
+      "bbox_geo": [
+        802872.375,
+        610902.875,
+        802876.125,
+        610899.25
+      ],
+      "center_pixel": [
+        12627.154296875,
+        21870.9140625
+      ],
+      "center_geo": [
+        802874.25,
+        610901.0625
+      ],
+      "confidence": 0.37143853306770325,
+      "class": "plastic-waste",
+      "area_pixel": 50595.77734375,
+      "area_geo": 13.59375,
+      "tile_index": 7663,
+      "tile_offset": [
+        12512,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007663_x12512_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        65952.6640625,
+        9602.8056640625,
+        66066.40625,
+        9728.0068359375
+      ],
+      "bbox_geo": [
+        803751.125,
+        611102.8125,
+        803753.0,
+        611100.75
+      ],
+      "center_pixel": [
+        66009.53125,
+        9665.40625
+      ],
+      "center_geo": [
+        803752.0625,
+        611101.75
+      ],
+      "confidence": 0.36446842551231384,
+      "class": "plastic-waste",
+      "area_pixel": 14240.6552734375,
+      "area_geo": 3.8671875,
+      "tile_index": 3368,
+      "tile_offset": [
+        65824,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003368_x65824_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        25620.83984375,
+        18338.158203125,
+        26207.32421875,
+        18592.0
+      ],
+      "bbox_geo": [
+        803087.9375,
+        610959.125,
+        803097.5625,
+        610955.0
+      ],
+      "center_pixel": [
+        25914.08203125,
+        18465.078125
+      ],
+      "center_geo": [
+        803092.75,
+        610957.0625
+      ],
+      "confidence": 0.35915112495422363,
+      "class": "plastic-waste",
+      "area_pixel": 148874.25,
+      "area_geo": 39.703125,
+      "tile_index": 6350,
+      "tile_offset": [
+        25568,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006350_x25568_y17952_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9051.544921875,
+        21760.0,
+        9342.3740234375,
+        21946.48828125
+      ],
+      "bbox_geo": [
+        802815.4375,
+        610902.875,
+        802820.25,
+        610899.8125
+      ],
+      "center_pixel": [
+        9196.958984375,
+        21853.244140625
+      ],
+      "center_geo": [
+        802817.875,
+        610901.375
+      ],
+      "confidence": 0.35741496086120605,
+      "class": "plastic-waste",
+      "area_pixel": 54236.21875,
+      "area_geo": 14.73828125,
+      "tile_index": 7656,
+      "tile_offset": [
+        8704,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007656_x8704_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        55291.24609375,
+        12163.1474609375,
+        55482.2890625,
+        12284.9375
+      ],
+      "bbox_geo": [
+        803575.8125,
+        611060.6875,
+        803579.0,
+        611058.6875
+      ],
+      "center_pixel": [
+        55386.765625,
+        12224.04296875
+      ],
+      "center_geo": [
+        803577.375,
+        611059.6875
+      ],
+      "confidence": 0.3531118333339691,
+      "class": "plastic-waste",
+      "area_pixel": 23267.130859375,
+      "area_geo": 6.375,
+      "tile_index": 4303,
+      "tile_offset": [
+        54944,
+        11968
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004303_x54944_y11968_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9248.314453125,
+        21760.458984375,
+        9352.44140625,
+        21955.86328125
+      ],
+      "bbox_geo": [
+        802818.6875,
+        610902.875,
+        802820.375,
+        610899.625
+      ],
+      "center_pixel": [
+        9300.3779296875,
+        21858.16015625
+      ],
+      "center_geo": [
+        802819.5,
+        610901.25
+      ],
+      "confidence": 0.3509100377559662,
+      "class": "plastic-waste",
+      "area_pixel": 20346.853515625,
+      "area_geo": 5.484375,
+      "tile_index": 7657,
+      "tile_offset": [
+        9248,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007657_x9248_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        5793.33642578125,
+        23390.1640625,
+        5981.8291015625,
+        23456.796875
+      ],
+      "bbox_geo": [
+        802761.875,
+        610876.0,
+        802765.0,
+        610875.0625
+      ],
+      "center_pixel": [
+        5887.582763671875,
+        23423.48046875
+      ],
+      "center_geo": [
+        802763.4375,
+        610875.53125
+      ],
+      "confidence": 0.26879967749118805,
+      "class": "plastic-waste",
+      "area_pixel": 12559.797122955322,
+      "area_geo": 2.9296875,
+      "merged_from": 2,
+      "tile_index": 8032,
+      "tile_offset": [
+        5440,
+        22848
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008032_x5440_y22848_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        40936.296875,
+        16543.33203125,
+        41017.52734375,
+        16661.66796875
+      ],
+      "bbox_geo": [
+        803339.75,
+        610988.625,
+        803341.0625,
+        610986.6875
+      ],
+      "center_pixel": [
+        40976.9140625,
+        16602.5
+      ],
+      "center_geo": [
+        803340.375,
+        610987.625
+      ],
+      "confidence": 0.34086158871650696,
+      "class": "plastic-waste",
+      "area_pixel": 9612.4833984375,
+      "area_geo": 2.54296875,
+      "tile_index": 5805,
+      "tile_offset": [
+        40800,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005805_x40800_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        4720.759765625,
+        24260.517578125,
+        4764.14697265625,
+        24304.33984375
+      ],
+      "bbox_geo": [
+        802744.25,
+        610861.75,
+        802744.9375,
+        610861.0
+      ],
+      "center_pixel": [
+        4742.453125,
+        24282.4296875
+      ],
+      "center_geo": [
+        802744.625,
+        610861.375
+      ],
+      "confidence": 0.3318973779678345,
+      "class": "plastic-waste",
+      "area_pixel": 1901.32568359375,
+      "area_geo": 0.515625,
+      "tile_index": 8412,
+      "tile_offset": [
+        4352,
+        23936
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008412_x4352_y23936_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        46784.05078125,
+        20091.69921875,
+        46871.59765625,
+        20221.8359375
+      ],
+      "bbox_geo": [
+        803435.9375,
+        610930.25,
+        803437.375,
+        610928.125
+      ],
+      "center_pixel": [
+        46827.82421875,
+        20156.767578125
+      ],
+      "center_geo": [
+        803436.65625,
+        610929.1875
+      ],
+      "confidence": 0.31907644867897034,
+      "class": "plastic-waste",
+      "area_pixel": 11393.063049316406,
+      "area_geo": 3.0546875,
+      "merged_from": 2,
+      "tile_index": 6962,
+      "tile_offset": [
+        46784,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006962_x46784_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        66912.0,
+        9865.361328125,
+        67077.34375,
+        10244.58203125
+      ],
+      "bbox_geo": [
+        803766.875,
+        611098.5,
+        803769.625,
+        611092.25
+      ],
+      "center_pixel": [
+        66994.671875,
+        10054.9716796875
+      ],
+      "center_geo": [
+        803768.25,
+        611095.375
+      ],
+      "confidence": 0.3275490999221802,
+      "class": "plastic-waste",
+      "area_pixel": 62701.7734375,
+      "area_geo": 17.1875,
+      "tile_index": 3561,
+      "tile_offset": [
+        66912,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003561_x66912_y9792_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37440.94921875,
+        18496.0,
+        37631.39453125,
+        18663.984375
+      ],
+      "bbox_geo": [
+        803282.25,
+        610956.5,
+        803285.375,
+        610953.75
+      ],
+      "center_pixel": [
+        37536.171875,
+        18579.9921875
+      ],
+      "center_geo": [
+        803283.8125,
+        610955.125
+      ],
+      "confidence": 0.3216746747493744,
+      "class": "plastic-waste",
+      "area_pixel": 31991.8359375,
+      "area_geo": 8.59375,
+      "tile_index": 6562,
+      "tile_offset": [
+        36992,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006562_x36992_y18496_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        35460.875,
+        16823.70703125,
+        35520.31640625,
+        16885.416015625
+      ],
+      "bbox_geo": [
+        803249.75,
+        610984.0,
+        803250.6875,
+        610983.0
+      ],
+      "center_pixel": [
+        35490.59375,
+        16854.5625
+      ],
+      "center_geo": [
+        803250.25,
+        610983.5
+      ],
+      "confidence": 0.32155516743659973,
+      "class": "plastic-waste",
+      "area_pixel": 3668.06884765625,
+      "area_geo": 0.9375,
+      "tile_index": 5795,
+      "tile_offset": [
+        35360,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005795_x35360_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100501.4609375,
+        762.1454467773438,
+        100735.703125,
+        1181.76708984375
+      ],
+      "bbox_geo": [
+        804319.25,
+        611248.1875,
+        804323.0625,
+        611241.25
+      ],
+      "center_pixel": [
+        100618.578125,
+        971.956298828125
+      ],
+      "center_geo": [
+        804321.125,
+        611244.75
+      ],
+      "confidence": 0.31516048312187195,
+      "class": "plastic-waste",
+      "area_pixel": 98293.09375,
+      "area_geo": 26.44921875,
+      "tile_index": 375,
+      "tile_offset": [
+        100096,
+        544
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000375_x100096_y544_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100400.5546875,
+        155.34442138671875,
+        100735.3828125,
+        629.0564575195312
+      ],
+      "bbox_geo": [
+        804317.5625,
+        611258.125,
+        804323.0625,
+        611250.3125
+      ],
+      "center_pixel": [
+        100567.96875,
+        392.200439453125
+      ],
+      "center_geo": [
+        804320.3125,
+        611254.25
+      ],
+      "confidence": 0.3133789896965027,
+      "class": "plastic-waste",
+      "area_pixel": 158612.109375,
+      "area_geo": 42.96875,
+      "tile_index": 184,
+      "tile_offset": [
+        100096,
+        0
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000184_x100096_y0_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        28576.814453125,
+        18858.951171875,
+        28660.267578125,
+        18948.3359375
+      ],
+      "bbox_geo": [
+        803136.5,
+        610950.5625,
+        803137.875,
+        610949.0625
+      ],
+      "center_pixel": [
+        28618.541015625,
+        18903.64453125
+      ],
+      "center_geo": [
+        803137.1875,
+        610949.8125
+      ],
+      "confidence": 0.3126533329486847,
+      "class": "plastic-waste",
+      "area_pixel": 7459.43798828125,
+      "area_geo": 2.0625,
+      "tile_index": 6546,
+      "tile_offset": [
+        28288,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006546_x28288_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        81270.296875,
+        6607.3447265625,
+        81405.578125,
+        6728.71728515625
+      ],
+      "bbox_geo": [
+        804003.0,
+        611152.0,
+        804005.25,
+        611150.0
+      ],
+      "center_pixel": [
+        81337.9375,
+        6668.03125
+      ],
+      "center_geo": [
+        804004.125,
+        611151.0
+      ],
+      "confidence": 0.3001341223716736,
+      "class": "plastic-waste",
+      "area_pixel": 16419.431640625,
+      "area_geo": 4.5,
+      "tile_index": 2441,
+      "tile_offset": [
+        81056,
+        6528
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002441_x81056_y6528_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        90227.953125,
+        4896.0,
+        90400.0,
+        4996.3388671875
+      ],
+      "bbox_geo": [
+        804150.3125,
+        611180.1875,
+        804153.125,
+        611178.5625
+      ],
+      "center_pixel": [
+        90313.9765625,
+        4946.16943359375
+      ],
+      "center_geo": [
+        804151.75,
+        611179.375
+      ],
+      "confidence": 0.2962433993816376,
+      "class": "plastic-waste",
+      "area_pixel": 17262.98828125,
+      "area_geo": 4.5703125,
+      "tile_index": 1884,
+      "tile_offset": [
+        89760,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001884_x89760_y4896_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101913.25,
+        2176.0,
+        102128.5546875,
+        2385.250244140625
+      ],
+      "bbox_geo": [
+        804342.5,
+        611224.875,
+        804346.0,
+        611221.4375
+      ],
+      "center_pixel": [
+        102020.90625,
+        2280.625
+      ],
+      "center_geo": [
+        804344.25,
+        611223.125
+      ],
+      "confidence": 0.29458776116371155,
+      "class": "plastic-waste",
+      "area_pixel": 45052.55859375,
+      "area_geo": 12.03125,
+      "tile_index": 951,
+      "tile_offset": [
+        101728,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000951_x101728_y2176_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        3639.484375,
+        24719.21875,
+        3882.9384765625,
+        24957.66796875
+      ],
+      "bbox_geo": [
+        802726.4375,
+        610854.1875,
+        802730.4375,
+        610850.25
+      ],
+      "center_pixel": [
+        3761.21142578125,
+        24838.443359375
+      ],
+      "center_geo": [
+        802728.4375,
+        610852.25
+      ],
+      "confidence": 0.2939634919166565,
+      "class": "plastic-waste",
+      "area_pixel": 58051.44140625,
+      "area_geo": 15.75,
+      "tile_index": 8601,
+      "tile_offset": [
+        3264,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008601_x3264_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        27031.830078125,
+        18324.248046875,
+        27295.498046875,
+        18589.34375
+      ],
+      "bbox_geo": [
+        803111.125,
+        610959.375,
+        803115.4375,
+        610955.0
+      ],
+      "center_pixel": [
+        27163.6640625,
+        18456.796875
+      ],
+      "center_geo": [
+        803113.25,
+        610957.1875
+      ],
+      "confidence": 0.2877034842967987,
+      "class": "plastic-waste",
+      "area_pixel": 69897.2421875,
+      "area_geo": 18.8671875,
+      "tile_index": 6352,
+      "tile_offset": [
+        26656,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006352_x26656_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24364.564453125,
+        18625.1328125,
+        24575.41015625,
+        18841.1953125
+      ],
+      "bbox_geo": [
+        803067.25,
+        610954.375,
+        803070.6875,
+        610950.8125
+      ],
+      "center_pixel": [
+        24469.98828125,
+        18733.1640625
+      ],
+      "center_geo": [
+        803069.0,
+        610952.625
+      ],
+      "confidence": 0.28582003712654114,
+      "class": "plastic-waste",
+      "area_pixel": 45555.8515625,
+      "area_geo": 12.24609375,
+      "tile_index": 6538,
+      "tile_offset": [
+        23936,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006538_x23936_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        76298.2734375,
+        7823.7890625,
+        76441.21875,
+        7946.8291015625
+      ],
+      "bbox_geo": [
+        803921.25,
+        611132.0,
+        803923.625,
+        611130.0
+      ],
+      "center_pixel": [
+        76369.75,
+        7885.30908203125
+      ],
+      "center_geo": [
+        803922.4375,
+        611131.0
+      ],
+      "confidence": 0.285623162984848,
+      "class": "plastic-waste",
+      "area_pixel": 17587.99609375,
+      "area_geo": 4.75,
+      "tile_index": 2814,
+      "tile_offset": [
+        76160,
+        7616
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002814_x76160_y7616_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100414.0703125,
+        544.0,
+        100734.015625,
+        737.8929443359375
+      ],
+      "bbox_geo": [
+        804317.8125,
+        611251.75,
+        804323.0625,
+        611248.5625
+      ],
+      "center_pixel": [
+        100574.046875,
+        640.9464721679688
+      ],
+      "center_geo": [
+        804320.4375,
+        611250.125
+      ],
+      "confidence": 0.28271177411079407,
+      "class": "plastic-waste",
+      "area_pixel": 62035.13671875,
+      "area_geo": 16.734375,
+      "tile_index": 375,
+      "tile_offset": [
+        100096,
+        544
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000375_x100096_y544_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17099.48828125,
+        20136.1953125,
+        17338.12890625,
+        20303.197265625
+      ],
+      "bbox_geo": [
+        802947.8125,
+        610929.5625,
+        802951.75,
+        610926.8125
+      ],
+      "center_pixel": [
+        17218.80859375,
+        20219.6953125
+      ],
+      "center_geo": [
+        802949.75,
+        610928.1875
+      ],
+      "confidence": 0.28252339363098145,
+      "class": "plastic-waste",
+      "area_pixel": 39853.44921875,
+      "area_geo": 10.828125,
+      "tile_index": 7098,
+      "tile_offset": [
+        16864,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007098_x16864_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56576.3828125,
+        13604.46484375,
+        56808.390625,
+        14065.7216796875
+      ],
+      "bbox_geo": [
+        803596.9375,
+        611037.0,
+        803600.75,
+        611029.375
+      ],
+      "center_pixel": [
+        56692.38671875,
+        13835.09375
+      ],
+      "center_geo": [
+        803598.875,
+        611033.1875
+      ],
+      "confidence": 0.28223520517349243,
+      "class": "plastic-waste",
+      "area_pixel": 107015.1875,
+      "area_geo": 29.0703125,
+      "tile_index": 4879,
+      "tile_offset": [
+        56576,
+        13600
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004879_x56576_y13600_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        30960.650390625,
+        17408.232421875,
+        31103.798828125,
+        17525.841796875
+      ],
+      "bbox_geo": [
+        803175.75,
+        610974.4375,
+        803178.0625,
+        610972.5
+      ],
+      "center_pixel": [
+        31032.224609375,
+        17467.037109375
+      ],
+      "center_geo": [
+        803176.875,
+        610973.5
+      ],
+      "confidence": 0.2820063531398773,
+      "class": "plastic-waste",
+      "area_pixel": 16835.59765625,
+      "area_geo": 4.48046875,
+      "tile_index": 6168,
+      "tile_offset": [
+        30464,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006168_x30464_y17408_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101728.65625,
+        2437.21484375,
+        101889.46875,
+        2652.9365234375
+      ],
+      "bbox_geo": [
+        804339.4375,
+        611220.5625,
+        804342.0625,
+        611217.0625
+      ],
+      "center_pixel": [
+        101809.0625,
+        2545.07568359375
+      ],
+      "center_geo": [
+        804340.75,
+        611218.8125
+      ],
+      "confidence": 0.27831459045410156,
+      "class": "plastic-waste",
+      "area_pixel": 34690.7421875,
+      "area_geo": 9.1875,
+      "tile_index": 951,
+      "tile_offset": [
+        101728,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000951_x101728_y2176_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        68000.0,
+        9340.2841796875,
+        68259.7421875,
+        9616.55078125
+      ],
+      "bbox_geo": [
+        803784.8125,
+        611107.125,
+        803789.0625,
+        611102.5625
+      ],
+      "center_pixel": [
+        68129.875,
+        9478.41796875
+      ],
+      "center_geo": [
+        803786.9375,
+        611104.875
+      ],
+      "confidence": 0.27597495913505554,
+      "class": "plastic-waste",
+      "area_pixel": 71758.09375,
+      "area_geo": 19.390625,
+      "tile_index": 3372,
+      "tile_offset": [
+        68000,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003372_x68000_y9248_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17420.29296875,
+        20672.0,
+        17688.6796875,
+        20756.046875
+      ],
+      "bbox_geo": [
+        802953.0625,
+        610920.75,
+        802957.5,
+        610919.375
+      ],
+      "center_pixel": [
+        17554.486328125,
+        20714.0234375
+      ],
+      "center_geo": [
+        802955.25,
+        610920.0625
+      ],
+      "confidence": 0.27555912733078003,
+      "class": "plastic-waste",
+      "area_pixel": 22557.064453125,
+      "area_geo": 6.1015625,
+      "tile_index": 7290,
+      "tile_offset": [
+        17408,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007290_x17408_y20672_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        15192.720703125,
+        20847.984375,
+        15328.0,
+        21055.05078125
+      ],
+      "bbox_geo": [
+        802916.4375,
+        610917.875,
+        802918.625,
+        610914.4375
+      ],
+      "center_pixel": [
+        15260.3603515625,
+        20951.517578125
+      ],
+      "center_geo": [
+        802917.5,
+        610916.125
+      ],
+      "confidence": 0.27350783348083496,
+      "class": "plastic-waste",
+      "area_pixel": 28011.796875,
+      "area_geo": 7.51953125,
+      "tile_index": 7285,
+      "tile_offset": [
+        14688,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007285_x14688_y20672_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9051.1796875,
+        21718.3984375,
+        9343.611328125,
+        21856.0
+      ],
+      "bbox_geo": [
+        802815.4375,
+        610903.5625,
+        802820.25,
+        610901.3125
+      ],
+      "center_pixel": [
+        9197.3955078125,
+        21787.19921875
+      ],
+      "center_geo": [
+        802817.875,
+        610902.4375
+      ],
+      "confidence": 0.2693518102169037,
+      "class": "plastic-waste",
+      "area_pixel": 40239.05078125,
+      "area_geo": 10.828125,
+      "tile_index": 7465,
+      "tile_offset": [
+        8704,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007465_x8704_y21216_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        39457.03515625,
+        15174.6484375,
+        39495.9609375,
+        15213.150390625
+      ],
+      "bbox_geo": [
+        803315.4375,
+        611011.125,
+        803316.0625,
+        611010.5
+      ],
+      "center_pixel": [
+        39476.5,
+        15193.8994140625
+      ],
+      "center_geo": [
+        803315.75,
+        611010.8125
+      ],
+      "confidence": 0.2692112326622009,
+      "class": "plastic-waste",
+      "area_pixel": 1498.7186279296875,
+      "area_geo": 0.390625,
+      "tile_index": 5229,
+      "tile_offset": [
+        39168,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005229_x39168_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        20128.05859375,
+        19627.90625,
+        20369.349609375,
+        19915.5
+      ],
+      "bbox_geo": [
+        802997.5625,
+        610937.875,
+        803001.5625,
+        610933.1875
+      ],
+      "center_pixel": [
+        20248.703125,
+        19771.703125
+      ],
+      "center_geo": [
+        802999.5625,
+        610935.5
+      ],
+      "confidence": 0.26904726028442383,
+      "class": "plastic-waste",
+      "area_pixel": 69393.7890625,
+      "area_geo": 18.75,
+      "tile_index": 6913,
+      "tile_offset": [
+        20128,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006913_x20128_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29033.94921875,
+        18560.978515625,
+        29170.09765625,
+        18719.208984375
+      ],
+      "bbox_geo": [
+        803144.0,
+        610955.4375,
+        803146.25,
+        610952.8125
+      ],
+      "center_pixel": [
+        29102.0234375,
+        18640.09375
+      ],
+      "center_geo": [
+        803145.125,
+        610954.125
+      ],
+      "confidence": 0.26782840490341187,
+      "class": "plastic-waste",
+      "area_pixel": 21542.83203125,
+      "area_geo": 5.90625,
+      "tile_index": 6547,
+      "tile_offset": [
+        28832,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006547_x28832_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        4352.0,
+        24748.4921875,
+        4433.177734375,
+        24912.35546875
+      ],
+      "bbox_geo": [
+        802738.1875,
+        610853.6875,
+        802739.5,
+        610851.0
+      ],
+      "center_pixel": [
+        4392.5888671875,
+        24830.423828125
+      ],
+      "center_geo": [
+        802738.875,
+        610852.375
+      ],
+      "confidence": 0.2639848589897156,
+      "class": "plastic-waste",
+      "area_pixel": 13302.0498046875,
+      "area_geo": 3.52734375,
+      "tile_index": 8603,
+      "tile_offset": [
+        4352,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008603_x4352_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19102.521484375,
+        25009.669921875,
+        19153.28515625,
+        25066.638671875
+      ],
+      "bbox_geo": [
+        802980.6875,
+        610849.4375,
+        802981.5625,
+        610848.5
+      ],
+      "center_pixel": [
+        19127.90234375,
+        25038.154296875
+      ],
+      "center_geo": [
+        802981.125,
+        610849.0
+      ],
+      "confidence": 0.2637641131877899,
+      "class": "plastic-waste",
+      "area_pixel": 2891.94287109375,
+      "area_geo": 0.8203125,
+      "tile_index": 8630,
+      "tile_offset": [
+        19040,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008630_x19040_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38624.0,
+        16864.43359375,
+        38741.5390625,
+        17089.73046875
+      ],
+      "bbox_geo": [
+        803301.75,
+        610983.375,
+        803303.6875,
+        610979.6875
+      ],
+      "center_pixel": [
+        38682.76953125,
+        16977.08203125
+      ],
+      "center_geo": [
+        803302.75,
+        610981.5
+      ],
+      "confidence": 0.2625444233417511,
+      "class": "plastic-waste",
+      "area_pixel": 26481.18359375,
+      "area_geo": 7.14453125,
+      "tile_index": 5992,
+      "tile_offset": [
+        38624,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005992_x38624_y16864_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29374.267578125,
+        23549.634765625,
+        29408.69921875,
+        23584.64453125
+      ],
+      "bbox_geo": [
+        803149.625,
+        610873.375,
+        803150.1875,
+        610872.8125
+      ],
+      "center_pixel": [
+        29391.4833984375,
+        23567.1396484375
+      ],
+      "center_geo": [
+        803149.90625,
+        610873.09375
+      ],
+      "confidence": 0.21834375709295273,
+      "class": "plastic-waste",
+      "area_pixel": 1205.4436683654785,
+      "area_geo": 0.31640625,
+      "merged_from": 2,
+      "tile_index": 8266,
+      "tile_offset": [
+        28832,
+        23392
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008266_x28832_y23392_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        48410.95703125,
+        14869.78125,
+        48566.27734375,
+        15016.7734375
+      ],
+      "bbox_geo": [
+        803462.6875,
+        611015.9375,
+        803465.25,
+        611013.875
+      ],
+      "center_pixel": [
+        48488.6171875,
+        14943.27734375
+      ],
+      "center_geo": [
+        803463.96875,
+        611014.90625
+      ],
+      "confidence": 0.21105634421110153,
+      "class": "plastic-waste",
+      "area_pixel": 22830.872497558594,
+      "area_geo": 5.28515625,
+      "merged_from": 2,
+      "tile_index": 5246,
+      "tile_offset": [
+        48416,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005246_x48416_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        9373.1142578125,
+        21912.78515625,
+        9629.1474609375,
+        22088.759765625
+      ],
+      "bbox_geo": [
+        802820.75,
+        610900.375,
+        802824.9375,
+        610897.5
+      ],
+      "center_pixel": [
+        9501.130859375,
+        22000.7734375
+      ],
+      "center_geo": [
+        802822.875,
+        610898.9375
+      ],
+      "confidence": 0.2603732645511627,
+      "class": "plastic-waste",
+      "area_pixel": 45055.34375,
+      "area_geo": 12.0390625,
+      "tile_index": 7657,
+      "tile_offset": [
+        9248,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007657_x9248_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        58712.4765625,
+        11228.564453125,
+        58856.171875,
+        11342.7158203125
+      ],
+      "bbox_geo": [
+        803632.0625,
+        611076.0,
+        803634.4375,
+        611074.25
+      ],
+      "center_pixel": [
+        58784.32421875,
+        11285.64013671875
+      ],
+      "center_geo": [
+        803633.25,
+        611075.125
+      ],
+      "confidence": 0.2345462515950203,
+      "class": "plastic-waste",
+      "area_pixel": 16403.01638031006,
+      "area_geo": 4.15625,
+      "merged_from": 2,
+      "tile_index": 3928,
+      "tile_offset": [
+        58752,
+        10880
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003928_x58752_y10880_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47831.98828125,
+        15232.0,
+        47992.453125,
+        15395.1064453125
+      ],
+      "bbox_geo": [
+        803453.1875,
+        611010.1875,
+        803455.8125,
+        611007.75
+      ],
+      "center_pixel": [
+        47912.220703125,
+        15313.55322265625
+      ],
+      "center_geo": [
+        803454.5,
+        611008.96875
+      ],
+      "confidence": 0.24451617151498795,
+      "class": "plastic-waste",
+      "area_pixel": 26172.850261688232,
+      "area_geo": 6.3984375,
+      "merged_from": 2,
+      "tile_index": 5435,
+      "tile_offset": [
+        47328,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005435_x47328_y15232_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        27200.240234375,
+        18306.208984375,
+        27466.306640625,
+        18588.029296875
+      ],
+      "bbox_geo": [
+        803113.875,
+        610959.6875,
+        803118.25,
+        610955.0625
+      ],
+      "center_pixel": [
+        27333.2734375,
+        18447.119140625
+      ],
+      "center_geo": [
+        803116.0625,
+        610957.375
+      ],
+      "confidence": 0.2561624348163605,
+      "class": "plastic-waste",
+      "area_pixel": 74982.9140625,
+      "area_geo": 20.234375,
+      "tile_index": 6353,
+      "tile_offset": [
+        27200,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006353_x27200_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        67296.4296875,
+        9248.0,
+        67552.0,
+        9382.828125
+      ],
+      "bbox_geo": [
+        803773.1875,
+        611108.625,
+        803777.375,
+        611106.4375
+      ],
+      "center_pixel": [
+        67424.21875,
+        9315.4140625
+      ],
+      "center_geo": [
+        803775.25,
+        611107.5
+      ],
+      "confidence": 0.25495049357414246,
+      "class": "plastic-waste",
+      "area_pixel": 34458.06640625,
+      "area_geo": 9.16015625,
+      "tile_index": 3370,
+      "tile_offset": [
+        66912,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003370_x66912_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        15232.4208984375,
+        20834.37890625,
+        15388.353515625,
+        21054.28125
+      ],
+      "bbox_geo": [
+        802917.0625,
+        610918.0625,
+        802919.625,
+        610914.4375
+      ],
+      "center_pixel": [
+        15310.38671875,
+        20944.330078125
+      ],
+      "center_geo": [
+        802918.375,
+        610916.25
+      ],
+      "confidence": 0.25390273332595825,
+      "class": "plastic-waste",
+      "area_pixel": 34289.94921875,
+      "area_geo": 9.2890625,
+      "tile_index": 7286,
+      "tile_offset": [
+        15232,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007286_x15232_y20672_dets4.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19443.005859375,
+        23179.65234375,
+        19465.5703125,
+        23216.091796875
+      ],
+      "bbox_geo": [
+        802986.3125,
+        610879.5,
+        802986.6875,
+        610878.875
+      ],
+      "center_pixel": [
+        19454.2890625,
+        23197.87109375
+      ],
+      "center_geo": [
+        802986.5,
+        610879.1875
+      ],
+      "confidence": 0.2512201964855194,
+      "class": "plastic-waste",
+      "area_pixel": 822.236328125,
+      "area_geo": 0.234375,
+      "tile_index": 8057,
+      "tile_offset": [
+        19040,
+        22848
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008057_x19040_y22848_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24564.4765625,
+        17814.333984375,
+        24689.83203125,
+        17891.66796875
+      ],
+      "bbox_geo": [
+        803070.5,
+        610967.75,
+        803072.5625,
+        610966.5
+      ],
+      "center_pixel": [
+        24627.154296875,
+        17853.0
+      ],
+      "center_geo": [
+        803071.5,
+        610967.125
+      ],
+      "confidence": 0.25096458196640015,
+      "class": "plastic-waste",
+      "area_pixel": 9694.23828125,
+      "area_geo": 2.578125,
+      "tile_index": 6157,
+      "tile_offset": [
+        24480,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006157_x24480_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        68000.4296875,
+        9377.2109375,
+        68096.0,
+        9615.3681640625
+      ],
+      "bbox_geo": [
+        803784.8125,
+        611106.5,
+        803786.375,
+        611102.5625
+      ],
+      "center_pixel": [
+        68048.21875,
+        9496.2890625
+      ],
+      "center_geo": [
+        803785.625,
+        611104.5
+      ],
+      "confidence": 0.24796323478221893,
+      "class": "plastic-waste",
+      "area_pixel": 22760.759765625,
+      "area_geo": 6.15234375,
+      "tile_index": 3371,
+      "tile_offset": [
+        67456,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003371_x67456_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        90304.0546875,
+        5440.0,
+        90550.03125,
+        5591.18994140625
+      ],
+      "bbox_geo": [
+        804151.5625,
+        611171.25,
+        804155.625,
+        611168.75
+      ],
+      "center_pixel": [
+        90427.046875,
+        5515.5947265625
+      ],
+      "center_geo": [
+        804153.625,
+        611170.0
+      ],
+      "confidence": 0.2479197233915329,
+      "class": "plastic-waste",
+      "area_pixel": 37189.18359375,
+      "area_geo": 10.15625,
+      "tile_index": 2076,
+      "tile_offset": [
+        90304,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002076_x90304_y5440_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24623.669921875,
+        17819.57421875,
+        24687.673828125,
+        17884.61328125
+      ],
+      "bbox_geo": [
+        803071.5,
+        610967.6875,
+        803072.5625,
+        610966.625
+      ],
+      "center_pixel": [
+        24655.671875,
+        17852.09375
+      ],
+      "center_geo": [
+        803072.0,
+        610967.125
+      ],
+      "confidence": 0.2472226321697235,
+      "class": "plastic-waste",
+      "area_pixel": 4162.75390625,
+      "area_geo": 1.12890625,
+      "tile_index": 6157,
+      "tile_offset": [
+        24480,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006157_x24480_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        540.1768798828125,
+        24099.765625,
+        657.2813720703125,
+        24359.06640625
+      ],
+      "bbox_geo": [
+        802675.5,
+        610864.3125,
+        802677.4375,
+        610860.1875
+      ],
+      "center_pixel": [
+        598.7291259765625,
+        24229.416015625
+      ],
+      "center_geo": [
+        802676.46875,
+        610862.25
+      ],
+      "confidence": 0.20231413841247559,
+      "class": "plastic-waste",
+      "area_pixel": 30365.28631210327,
+      "area_geo": 7.9921875,
+      "merged_from": 2,
+      "tile_index": 8405,
+      "tile_offset": [
+        544,
+        23936
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008405_x544_y23936_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        76391.6796875,
+        8301.4287109375,
+        76494.8046875,
+        8418.7265625
+      ],
+      "bbox_geo": [
+        803922.8125,
+        611124.1875,
+        803924.5,
+        611122.25
+      ],
+      "center_pixel": [
+        76443.2421875,
+        8360.078125
+      ],
+      "center_geo": [
+        803923.625,
+        611123.25
+      ],
+      "confidence": 0.24594666063785553,
+      "class": "plastic-waste",
+      "area_pixel": 12096.3408203125,
+      "area_geo": 3.26953125,
+      "tile_index": 3005,
+      "tile_offset": [
+        76160,
+        8160
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003005_x76160_y8160_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56880.41796875,
+        14301.6162109375,
+        57215.16015625,
+        14779.453125
+      ],
+      "bbox_geo": [
+        803601.9375,
+        611025.5,
+        803607.4375,
+        611017.625
+      ],
+      "center_pixel": [
+        57047.7890625,
+        14540.53515625
+      ],
+      "center_geo": [
+        803604.6875,
+        611021.5625
+      ],
+      "confidence": 0.2416216880083084,
+      "class": "plastic-waste",
+      "area_pixel": 159952.171875,
+      "area_geo": 43.3125,
+      "tile_index": 5070,
+      "tile_offset": [
+        56576,
+        14144
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005070_x56576_y14144_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38624.87890625,
+        16120.9931640625,
+        38882.79296875,
+        16415.6328125
+      ],
+      "bbox_geo": [
+        803301.75,
+        610995.5625,
+        803306.0,
+        610990.75
+      ],
+      "center_pixel": [
+        38753.8359375,
+        16268.3125
+      ],
+      "center_geo": [
+        803303.875,
+        610993.125
+      ],
+      "confidence": 0.24130046367645264,
+      "class": "plastic-waste",
+      "area_pixel": 75991.7109375,
+      "area_geo": 20.453125,
+      "tile_index": 5610,
+      "tile_offset": [
+        38624,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005610_x38624_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        85952.0,
+        7852.3623046875,
+        86117.265625,
+        8249.9755859375
+      ],
+      "bbox_geo": [
+        804080.0,
+        611131.5625,
+        804082.6875,
+        611125.0
+      ],
+      "center_pixel": [
+        86034.6328125,
+        8051.1689453125
+      ],
+      "center_geo": [
+        804081.375,
+        611128.25
+      ],
+      "confidence": 0.24126093089580536,
+      "class": "plastic-waste",
+      "area_pixel": 65711.8046875,
+      "area_geo": 17.63671875,
+      "tile_index": 2832,
+      "tile_offset": [
+        85952,
+        7616
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002832_x85952_y7616_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        44443.734375,
+        15217.7666015625,
+        44594.73828125,
+        15328.0
+      ],
+      "bbox_geo": [
+        803397.4375,
+        611010.4375,
+        803399.9375,
+        611008.625
+      ],
+      "center_pixel": [
+        44519.234375,
+        15272.8828125
+      ],
+      "center_geo": [
+        803398.6875,
+        611009.5
+      ],
+      "confidence": 0.23879161477088928,
+      "class": "plastic-waste",
+      "area_pixel": 16645.673828125,
+      "area_geo": 4.53125,
+      "tile_index": 5238,
+      "tile_offset": [
+        44064,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005238_x44064_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24975.119140625,
+        18535.791015625,
+        25120.0,
+        18591.7109375
+      ],
+      "bbox_geo": [
+        803077.25,
+        610955.875,
+        803079.625,
+        610955.0
+      ],
+      "center_pixel": [
+        25047.55859375,
+        18563.75
+      ],
+      "center_geo": [
+        803078.4375,
+        610955.4375
+      ],
+      "confidence": 0.23827417194843292,
+      "class": "plastic-waste",
+      "area_pixel": 8101.7265625,
+      "area_geo": 2.078125,
+      "tile_index": 6348,
+      "tile_offset": [
+        24480,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006348_x24480_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100640.0,
+        2176.0,
+        100836.296875,
+        2364.855224609375
+      ],
+      "bbox_geo": [
+        804321.5625,
+        611224.875,
+        804324.8125,
+        611221.75
+      ],
+      "center_pixel": [
+        100738.1484375,
+        2270.427734375
+      ],
+      "center_geo": [
+        804323.1875,
+        611223.3125
+      ],
+      "confidence": 0.2350327968597412,
+      "class": "plastic-waste",
+      "area_pixel": 37071.69140625,
+      "area_geo": 10.15625,
+      "tile_index": 949,
+      "tile_offset": [
+        100640,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000949_x100640_y2176_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        21077.6015625,
+        19983.3125,
+        21200.005859375,
+        20096.0390625
+      ],
+      "bbox_geo": [
+        803013.1875,
+        610932.0625,
+        803015.1875,
+        610930.1875
+      ],
+      "center_pixel": [
+        21138.8046875,
+        20039.67578125
+      ],
+      "center_geo": [
+        803014.1875,
+        610931.125
+      ],
+      "confidence": 0.23499034345149994,
+      "class": "plastic-waste",
+      "area_pixel": 13798.2158203125,
+      "area_geo": 3.75,
+      "tile_index": 6914,
+      "tile_offset": [
+        20672,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006914_x20672_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        89227.765625,
+        5443.5712890625,
+        89691.21875,
+        5703.2734375
+      ],
+      "bbox_geo": [
+        804133.875,
+        611171.1875,
+        804141.5,
+        611166.9375
+      ],
+      "center_pixel": [
+        89459.4921875,
+        5573.42236328125
+      ],
+      "center_geo": [
+        804137.6875,
+        611169.0625
+      ],
+      "confidence": 0.23390337824821472,
+      "class": "plastic-waste",
+      "area_pixel": 120359.7734375,
+      "area_geo": 32.40625,
+      "tile_index": 2074,
+      "tile_offset": [
+        89216,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002074_x89216_y5440_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        5973.91845703125,
+        23812.693359375,
+        6062.0791015625,
+        23907.650390625
+      ],
+      "bbox_geo": [
+        802764.8125,
+        610869.0625,
+        802766.3125,
+        610867.5
+      ],
+      "center_pixel": [
+        6017.9990234375,
+        23860.171875
+      ],
+      "center_geo": [
+        802765.5625,
+        610868.25
+      ],
+      "confidence": 0.23285269737243652,
+      "class": "plastic-waste",
+      "area_pixel": 8371.47265625,
+      "area_geo": 2.34375,
+      "tile_index": 8223,
+      "tile_offset": [
+        5440,
+        23392
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008223_x5440_y23392_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101184.0,
+        2261.60009765625,
+        101616.984375,
+        2779.93310546875
+      ],
+      "bbox_geo": [
+        804330.5,
+        611223.4375,
+        804337.625,
+        611214.9375
+      ],
+      "center_pixel": [
+        101400.4921875,
+        2520.7666015625
+      ],
+      "center_geo": [
+        804334.0625,
+        611219.1875
+      ],
+      "confidence": 0.2328084409236908,
+      "class": "plastic-waste",
+      "area_pixel": 224430.09375,
+      "area_geo": 60.5625,
+      "tile_index": 950,
+      "tile_offset": [
+        101184,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000950_x101184_y2176_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29202.43359375,
+        22634.28125,
+        29254.267578125,
+        22697.505859375
+      ],
+      "bbox_geo": [
+        803146.75,
+        610888.5,
+        803147.625,
+        610887.4375
+      ],
+      "center_pixel": [
+        29228.3515625,
+        22665.89453125
+      ],
+      "center_geo": [
+        803147.1875,
+        610888.0
+      ],
+      "confidence": 0.2316257655620575,
+      "class": "plastic-waste",
+      "area_pixel": 3277.183349609375,
+      "area_geo": 0.9296875,
+      "tile_index": 7884,
+      "tile_offset": [
+        28832,
+        22304
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007884_x28832_y22304_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19966.966796875,
+        24544.1015625,
+        20050.69921875,
+        24645.71484375
+      ],
+      "bbox_geo": [
+        802994.9375,
+        610857.0625,
+        802996.3125,
+        610855.375
+      ],
+      "center_pixel": [
+        20008.83203125,
+        24594.908203125
+      ],
+      "center_geo": [
+        802995.625,
+        610856.25
+      ],
+      "confidence": 0.23055659234523773,
+      "class": "plastic-waste",
+      "area_pixel": 8508.326171875,
+      "area_geo": 2.3203125,
+      "tile_index": 8631,
+      "tile_offset": [
+        19584,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008631_x19584_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101184.0,
+        1632.081787109375,
+        101653.6640625,
+        2119.204345703125
+      ],
+      "bbox_geo": [
+        804330.5,
+        611233.8125,
+        804338.25,
+        611225.8125
+      ],
+      "center_pixel": [
+        101418.828125,
+        1875.64306640625
+      ],
+      "center_geo": [
+        804334.375,
+        611229.8125
+      ],
+      "confidence": 0.22699639201164246,
+      "class": "plastic-waste",
+      "area_pixel": 228783.953125,
+      "area_geo": 62.0,
+      "tile_index": 759,
+      "tile_offset": [
+        101184,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000759_x101184_y1632_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        25024.0,
+        18496.068359375,
+        25471.64453125,
+        18756.7890625
+      ],
+      "bbox_geo": [
+        803078.125,
+        610956.5,
+        803085.5,
+        610952.1875
+      ],
+      "center_pixel": [
+        25247.822265625,
+        18626.4296875
+      ],
+      "center_geo": [
+        803081.8125,
+        610954.375
+      ],
+      "confidence": 0.2268694043159485,
+      "class": "plastic-waste",
+      "area_pixel": 116710.1953125,
+      "area_geo": 31.8046875,
+      "tile_index": 6540,
+      "tile_offset": [
+        25024,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006540_x25024_y18496_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        61592.35546875,
+        12376.2548828125,
+        61621.078125,
+        12442.22265625
+      ],
+      "bbox_geo": [
+        803679.4375,
+        611057.1875,
+        803679.875,
+        611056.0625
+      ],
+      "center_pixel": [
+        61606.71875,
+        12409.23828125
+      ],
+      "center_geo": [
+        803679.625,
+        611056.625
+      ],
+      "confidence": 0.2267773300409317,
+      "class": "plastic-waste",
+      "area_pixel": 1894.7696533203125,
+      "area_geo": 0.4921875,
+      "tile_index": 4315,
+      "tile_offset": [
+        61472,
+        11968
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004315_x61472_y11968_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        78336.0,
+        7339.228515625,
+        78798.6484375,
+        7707.9990234375
+      ],
+      "bbox_geo": [
+        803954.75,
+        611140.0,
+        803962.375,
+        611133.9375
+      ],
+      "center_pixel": [
+        78567.328125,
+        7523.61376953125
+      ],
+      "center_geo": [
+        803958.5625,
+        611137.0
+      ],
+      "confidence": 0.2260296642780304,
+      "class": "plastic-waste",
+      "area_pixel": 170611.09375,
+      "area_geo": 46.2265625,
+      "tile_index": 2627,
+      "tile_offset": [
+        78336,
+        7072
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002627_x78336_y7072_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47872.0,
+        14689.7666015625,
+        47997.9453125,
+        14924.4716796875
+      ],
+      "bbox_geo": [
+        803453.8125,
+        611019.125,
+        803455.875,
+        611015.25
+      ],
+      "center_pixel": [
+        47934.97265625,
+        14807.119140625
+      ],
+      "center_geo": [
+        803454.875,
+        611017.1875
+      ],
+      "confidence": 0.22507984936237335,
+      "class": "plastic-waste",
+      "area_pixel": 29560.00390625,
+      "area_geo": 7.9921875,
+      "tile_index": 5245,
+      "tile_offset": [
+        47872,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005245_x47872_y14688_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        85952.5078125,
+        8704.0,
+        86112.1640625,
+        8897.3955078125
+      ],
+      "bbox_geo": [
+        804080.0,
+        611117.5625,
+        804082.625,
+        611114.375
+      ],
+      "center_pixel": [
+        86032.3359375,
+        8800.697265625
+      ],
+      "center_geo": [
+        804081.3125,
+        611116.0
+      ],
+      "confidence": 0.22479166090488434,
+      "class": "plastic-waste",
+      "area_pixel": 30876.80078125,
+      "area_geo": 8.3671875,
+      "tile_index": 3214,
+      "tile_offset": [
+        85952,
+        8704
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003214_x85952_y8704_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        87040.7578125,
+        5631.80810546875,
+        87215.296875,
+        5859.34814453125
+      ],
+      "bbox_geo": [
+        804097.875,
+        611168.125,
+        804100.75,
+        611164.375
+      ],
+      "center_pixel": [
+        87128.03125,
+        5745.578125
+      ],
+      "center_geo": [
+        804099.3125,
+        611166.25
+      ],
+      "confidence": 0.22476044297218323,
+      "class": "plastic-waste",
+      "area_pixel": 39714.625,
+      "area_geo": 10.78125,
+      "tile_index": 2070,
+      "tile_offset": [
+        87040,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002070_x87040_y5440_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        28052.994140625,
+        19705.619140625,
+        28384.0,
+        20221.27734375
+      ],
+      "bbox_geo": [
+        803127.875,
+        610936.625,
+        803133.3125,
+        610928.125
+      ],
+      "center_pixel": [
+        28218.49609375,
+        19963.44921875
+      ],
+      "center_geo": [
+        803130.625,
+        610932.375
+      ],
+      "confidence": 0.2226267009973526,
+      "class": "plastic-waste",
+      "area_pixel": 170685.890625,
+      "area_geo": 46.21875,
+      "tile_index": 6927,
+      "tile_offset": [
+        27744,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006927_x27744_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37228.69140625,
+        16972.9921875,
+        37469.00390625,
+        17502.2109375
+      ],
+      "bbox_geo": [
+        803278.75,
+        610981.5625,
+        803282.75,
+        610972.875
+      ],
+      "center_pixel": [
+        37348.84765625,
+        17237.6015625
+      ],
+      "center_geo": [
+        803280.75,
+        610977.25
+      ],
+      "confidence": 0.2222747951745987,
+      "class": "plastic-waste",
+      "area_pixel": 127177.8828125,
+      "area_geo": 34.75,
+      "tile_index": 5989,
+      "tile_offset": [
+        36992,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005989_x36992_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        26812.490234375,
+        17519.314453125,
+        27131.634765625,
+        18048.0
+      ],
+      "bbox_geo": [
+        803107.5,
+        610972.625,
+        803112.75,
+        610963.9375
+      ],
+      "center_pixel": [
+        26972.0625,
+        17783.65625
+      ],
+      "center_geo": [
+        803110.125,
+        610968.25
+      ],
+      "confidence": 0.22101090848445892,
+      "class": "plastic-waste",
+      "area_pixel": 168727.09375,
+      "area_geo": 45.609375,
+      "tile_index": 6161,
+      "tile_offset": [
+        26656,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006161_x26656_y17408_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        99263.7109375,
+        2868.158935546875,
+        99347.1171875,
+        2942.029052734375
+      ],
+      "bbox_geo": [
+        804298.875,
+        611213.5,
+        804300.25,
+        611212.3125
+      ],
+      "center_pixel": [
+        99305.4140625,
+        2905.093994140625
+      ],
+      "center_geo": [
+        804299.5625,
+        611212.875
+      ],
+      "confidence": 0.22091859579086304,
+      "class": "plastic-waste",
+      "area_pixel": 6161.2294921875,
+      "area_geo": 1.6328125,
+      "tile_index": 1137,
+      "tile_offset": [
+        99008,
+        2720
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001137_x99008_y2720_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        45016.53515625,
+        15170.791015625,
+        45247.828125,
+        15327.5751953125
+      ],
+      "bbox_geo": [
+        803406.8125,
+        611011.1875,
+        803410.625,
+        611008.625
+      ],
+      "center_pixel": [
+        45132.1796875,
+        15249.18359375
+      ],
+      "center_geo": [
+        803408.75,
+        611009.875
+      ],
+      "confidence": 0.22077301144599915,
+      "class": "plastic-waste",
+      "area_pixel": 36263.078125,
+      "area_geo": 9.76953125,
+      "tile_index": 5239,
+      "tile_offset": [
+        44608,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005239_x44608_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        31008.564453125,
+        16867.74609375,
+        31244.09765625,
+        17343.212890625
+      ],
+      "bbox_geo": [
+        803176.5,
+        610983.3125,
+        803180.375,
+        610975.5
+      ],
+      "center_pixel": [
+        31126.33203125,
+        17105.48046875
+      ],
+      "center_geo": [
+        803178.4375,
+        610979.375
+      ],
+      "confidence": 0.2196386754512787,
+      "class": "plastic-waste",
+      "area_pixel": 111988.21875,
+      "area_geo": 30.2734375,
+      "tile_index": 5978,
+      "tile_offset": [
+        31008,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005978_x31008_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38080.09765625,
+        19587.380859375,
+        38475.71484375,
+        20143.46484375
+      ],
+      "bbox_geo": [
+        803292.8125,
+        610938.5625,
+        803299.3125,
+        610929.4375
+      ],
+      "center_pixel": [
+        38277.90625,
+        19865.421875
+      ],
+      "center_geo": [
+        803296.0625,
+        610934.0
+      ],
+      "confidence": 0.2192707061767578,
+      "class": "plastic-waste",
+      "area_pixel": 219996.375,
+      "area_geo": 59.3125,
+      "tile_index": 6946,
+      "tile_offset": [
+        38080,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006946_x38080_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        90304.6015625,
+        4896.14892578125,
+        90491.7734375,
+        4991.501953125
+      ],
+      "bbox_geo": [
+        804151.5625,
+        611180.1875,
+        804154.625,
+        611178.625
+      ],
+      "center_pixel": [
+        90398.1875,
+        4943.8251953125
+      ],
+      "center_geo": [
+        804153.125,
+        611179.375
+      ],
+      "confidence": 0.21843749284744263,
+      "class": "plastic-waste",
+      "area_pixel": 17847.404296875,
+      "area_geo": 4.78515625,
+      "tile_index": 1885,
+      "tile_offset": [
+        90304,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001885_x90304_y4896_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16918.52734375,
+        19592.462890625,
+        17432.84765625,
+        20157.12109375
+      ],
+      "bbox_geo": [
+        802944.8125,
+        610938.5,
+        802953.3125,
+        610929.1875
+      ],
+      "center_pixel": [
+        17175.6875,
+        19874.79296875
+      ],
+      "center_geo": [
+        802949.0625,
+        610933.875
+      ],
+      "confidence": 0.21835465729236603,
+      "class": "plastic-waste",
+      "area_pixel": 290415.1875,
+      "area_geo": 79.15625,
+      "tile_index": 6907,
+      "tile_offset": [
+        16864,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006907_x16864_y19584_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24302.314453125,
+        17527.59375,
+        24364.73828125,
+        17590.998046875
+      ],
+      "bbox_geo": [
+        803066.1875,
+        610972.5,
+        803067.25,
+        610971.4375
+      ],
+      "center_pixel": [
+        24333.52734375,
+        17559.296875
+      ],
+      "center_geo": [
+        803066.75,
+        610972.0
+      ],
+      "confidence": 0.21783241629600525,
+      "class": "plastic-waste",
+      "area_pixel": 3957.93896484375,
+      "area_geo": 1.12890625,
+      "tile_index": 6156,
+      "tile_offset": [
+        23936,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006156_x23936_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        31994.365234375,
+        16684.849609375,
+        32139.6015625,
+        16809.7109375
+      ],
+      "bbox_geo": [
+        803192.6875,
+        610986.3125,
+        803195.125,
+        610984.25
+      ],
+      "center_pixel": [
+        32066.984375,
+        16747.28125
+      ],
+      "center_geo": [
+        803193.875,
+        610985.25
+      ],
+      "confidence": 0.21672551333904266,
+      "class": "plastic-waste",
+      "area_pixel": 18134.400390625,
+      "area_geo": 5.02734375,
+      "tile_index": 5788,
+      "tile_offset": [
+        31552,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005788_x31552_y16320_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        15517.6728515625,
+        20988.880859375,
+        15697.990234375,
+        21106.193359375
+      ],
+      "bbox_geo": [
+        802921.75,
+        610915.5625,
+        802924.75,
+        610913.625
+      ],
+      "center_pixel": [
+        15607.83203125,
+        21047.537109375
+      ],
+      "center_geo": [
+        802923.25,
+        610914.625
+      ],
+      "confidence": 0.2155691236257553,
+      "class": "plastic-waste",
+      "area_pixel": 21153.482421875,
+      "area_geo": 5.8125,
+      "tile_index": 7286,
+      "tile_offset": [
+        15232,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007286_x15232_y20672_dets4.jpg"
+    },
+    {
+      "bbox_pixel": [
+        85952.09375,
+        8167.11279296875,
+        86139.1328125,
+        8696.6162109375
+      ],
+      "bbox_geo": [
+        804080.0,
+        611126.375,
+        804083.0625,
+        611117.6875
+      ],
+      "center_pixel": [
+        86045.609375,
+        8431.8642578125
+      ],
+      "center_geo": [
+        804081.5,
+        611122.0
+      ],
+      "confidence": 0.21489520370960236,
+      "class": "plastic-waste",
+      "area_pixel": 99037.8203125,
+      "area_geo": 26.60546875,
+      "tile_index": 3023,
+      "tile_offset": [
+        85952,
+        8160
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003023_x85952_y8160_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        18946.8828125,
+        24478.4765625,
+        19042.88671875,
+        24569.822265625
+      ],
+      "bbox_geo": [
+        802978.1875,
+        610858.125,
+        802979.75,
+        610856.8125
+      ],
+      "center_pixel": [
+        18994.884765625,
+        24524.1494140625
+      ],
+      "center_geo": [
+        802978.96875,
+        610857.46875
+      ],
+      "confidence": 0.18318407237529755,
+      "class": "plastic-waste",
+      "area_pixel": 8769.544319152832,
+      "area_geo": 2.05078125,
+      "merged_from": 2,
+      "tile_index": 8629,
+      "tile_offset": [
+        18496,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008629_x18496_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24537.970703125,
+        17333.880859375,
+        24657.58203125,
+        17469.26171875
+      ],
+      "bbox_geo": [
+        803070.0625,
+        610975.625,
+        803072.0625,
+        610973.4375
+      ],
+      "center_pixel": [
+        24597.77734375,
+        17401.5703125
+      ],
+      "center_geo": [
+        803071.0625,
+        610974.5
+      ],
+      "confidence": 0.2140178084373474,
+      "class": "plastic-waste",
+      "area_pixel": 16193.083984375,
+      "area_geo": 4.375,
+      "tile_index": 5966,
+      "tile_offset": [
+        24480,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005966_x24480_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        39464.91015625,
+        15249.2841796875,
+        39679.765625,
+        15481.978515625
+      ],
+      "bbox_geo": [
+        803315.5625,
+        611009.875,
+        803319.125,
+        611006.0625
+      ],
+      "center_pixel": [
+        39572.3359375,
+        15365.630859375
+      ],
+      "center_geo": [
+        803317.375,
+        611008.0
+      ],
+      "confidence": 0.21317298710346222,
+      "class": "plastic-waste",
+      "area_pixel": 49995.65234375,
+      "area_geo": 13.58203125,
+      "tile_index": 5420,
+      "tile_offset": [
+        39168,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005420_x39168_y15232_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38080.0,
+        19102.2265625,
+        38451.9296875,
+        19679.529296875
+      ],
+      "bbox_geo": [
+        803292.8125,
+        610946.5625,
+        803298.9375,
+        610937.0625
+      ],
+      "center_pixel": [
+        38265.96484375,
+        19390.87890625
+      ],
+      "center_geo": [
+        803295.875,
+        610941.8125
+      ],
+      "confidence": 0.2109987884759903,
+      "class": "plastic-waste",
+      "area_pixel": 214716.03125,
+      "area_geo": 58.1875,
+      "tile_index": 6755,
+      "tile_offset": [
+        38080,
+        19040
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006755_x38080_y19040_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47287.9375,
+        17957.923828125,
+        47423.5390625,
+        18342.794921875
+      ],
+      "bbox_geo": [
+        803444.25,
+        610965.375,
+        803446.4375,
+        610959.0625
+      ],
+      "center_pixel": [
+        47355.73828125,
+        18150.359375
+      ],
+      "center_geo": [
+        803445.375,
+        610962.25
+      ],
+      "confidence": 0.2098585069179535,
+      "class": "plastic-waste",
+      "area_pixel": 52189.12109375,
+      "area_geo": 13.80859375,
+      "tile_index": 6389,
+      "tile_offset": [
+        46784,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006389_x46784_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        70188.0234375,
+        8184.595703125,
+        70325.984375,
+        8255.3310546875
+      ],
+      "bbox_geo": [
+        803820.75,
+        611126.0625,
+        803823.0,
+        611124.9375
+      ],
+      "center_pixel": [
+        70257.0,
+        8219.962890625
+      ],
+      "center_geo": [
+        803821.875,
+        611125.5
+      ],
+      "confidence": 0.20985709130764008,
+      "class": "plastic-waste",
+      "area_pixel": 9758.7158203125,
+      "area_geo": 2.53125,
+      "tile_index": 2803,
+      "tile_offset": [
+        70176,
+        7616
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002803_x70176_y7616_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100854.6796875,
+        1632.4991455078125,
+        101279.3203125,
+        1952.48876953125
+      ],
+      "bbox_geo": [
+        804325.0625,
+        611233.8125,
+        804332.0625,
+        611228.5625
+      ],
+      "center_pixel": [
+        101067.0,
+        1792.493896484375
+      ],
+      "center_geo": [
+        804328.5625,
+        611231.1875
+      ],
+      "confidence": 0.20971709489822388,
+      "class": "plastic-waste",
+      "area_pixel": 135880.59375,
+      "area_geo": 36.75,
+      "tile_index": 758,
+      "tile_offset": [
+        100640,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000758_x100640_y1632_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        18241.013671875,
+        20416.2109375,
+        18351.935546875,
+        20539.345703125
+      ],
+      "bbox_geo": [
+        802966.5625,
+        610924.9375,
+        802968.375,
+        610922.9375
+      ],
+      "center_pixel": [
+        18296.474609375,
+        20477.77734375
+      ],
+      "center_geo": [
+        802967.5,
+        610923.9375
+      ],
+      "confidence": 0.20774012804031372,
+      "class": "plastic-waste",
+      "area_pixel": 13658.3388671875,
+      "area_geo": 3.625,
+      "tile_index": 7100,
+      "tile_offset": [
+        17952,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007100_x17952_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        21786.26953125,
+        19202.712890625,
+        21987.001953125,
+        19309.818359375
+      ],
+      "bbox_geo": [
+        803024.875,
+        610944.875,
+        803028.1875,
+        610943.125
+      ],
+      "center_pixel": [
+        21886.63671875,
+        19256.265625
+      ],
+      "center_geo": [
+        803026.5,
+        610944.0
+      ],
+      "confidence": 0.20754235982894897,
+      "class": "plastic-waste",
+      "area_pixel": 21499.541015625,
+      "area_geo": 5.796875,
+      "tile_index": 6725,
+      "tile_offset": [
+        21760,
+        19040
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006725_x21760_y19040_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        7616.0,
+        21956.70703125,
+        7949.83740234375,
+        22396.748046875
+      ],
+      "bbox_geo": [
+        802791.8125,
+        610899.625,
+        802797.3125,
+        610892.375
+      ],
+      "center_pixel": [
+        7782.9189453125,
+        22176.7265625
+      ],
+      "center_geo": [
+        802794.5625,
+        610896.0
+      ],
+      "confidence": 0.20648352801799774,
+      "class": "plastic-waste",
+      "area_pixel": 146902.15625,
+      "area_geo": 39.875,
+      "tile_index": 7654,
+      "tile_offset": [
+        7616,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007654_x7616_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47872.0,
+        15046.3681640625,
+        48014.64453125,
+        15325.9736328125
+      ],
+      "bbox_geo": [
+        803453.8125,
+        611013.25,
+        803456.1875,
+        611008.625
+      ],
+      "center_pixel": [
+        47943.3203125,
+        15186.1708984375
+      ],
+      "center_geo": [
+        803455.0,
+        611010.9375
+      ],
+      "confidence": 0.20591716468334198,
+      "class": "plastic-waste",
+      "area_pixel": 39884.19140625,
+      "area_geo": 10.984375,
+      "tile_index": 5245,
+      "tile_offset": [
+        47872,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005245_x47872_y14688_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        84985.109375,
+        8160.9345703125,
+        85504.0,
+        8776.7724609375
+      ],
+      "bbox_geo": [
+        804064.125,
+        611126.5,
+        804072.625,
+        611116.375
+      ],
+      "center_pixel": [
+        85244.5546875,
+        8468.853515625
+      ],
+      "center_geo": [
+        804068.375,
+        611121.4375
+      ],
+      "confidence": 0.20560318231582642,
+      "class": "plastic-waste",
+      "area_pixel": 319552.5,
+      "area_geo": 86.0625,
+      "tile_index": 3021,
+      "tile_offset": [
+        84864,
+        8160
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003021_x84864_y8160_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        13600.46875,
+        21503.3203125,
+        13821.96484375,
+        21854.6015625
+      ],
+      "bbox_geo": [
+        802890.25,
+        610907.0625,
+        802893.875,
+        610901.3125
+      ],
+      "center_pixel": [
+        13711.216796875,
+        21678.9609375
+      ],
+      "center_geo": [
+        802892.0625,
+        610904.1875
+      ],
+      "confidence": 0.20556975901126862,
+      "class": "plastic-waste",
+      "area_pixel": 77807.421875,
+      "area_geo": 20.84375,
+      "tile_index": 7474,
+      "tile_offset": [
+        13600,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007474_x13600_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        18155.216796875,
+        19693.564453125,
+        18215.341796875,
+        19746.119140625
+      ],
+      "bbox_geo": [
+        802965.125,
+        610936.8125,
+        802966.125,
+        610935.9375
+      ],
+      "center_pixel": [
+        18185.279296875,
+        19719.841796875
+      ],
+      "center_geo": [
+        802965.625,
+        610936.375
+      ],
+      "confidence": 0.2052442878484726,
+      "class": "plastic-waste",
+      "area_pixel": 3159.8505859375,
+      "area_geo": 0.875,
+      "tile_index": 6909,
+      "tile_offset": [
+        17952,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006909_x17952_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38080.0,
+        20128.0,
+        38667.81640625,
+        20746.81640625
+      ],
+      "bbox_geo": [
+        803292.8125,
+        610929.6875,
+        803302.5,
+        610919.5
+      ],
+      "center_pixel": [
+        38373.90625,
+        20437.408203125
+      ],
+      "center_geo": [
+        803297.625,
+        610924.625
+      ],
+      "confidence": 0.204664409160614,
+      "class": "plastic-waste",
+      "area_pixel": 363750.4375,
+      "area_geo": 98.69140625,
+      "tile_index": 7137,
+      "tile_offset": [
+        38080,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007137_x38080_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        31008.0,
+        17408.0,
+        31150.486328125,
+        17572.119140625
+      ],
+      "bbox_geo": [
+        803176.5,
+        610974.4375,
+        803178.8125,
+        610971.75
+      ],
+      "center_pixel": [
+        31079.2421875,
+        17490.05859375
+      ],
+      "center_geo": [
+        803177.625,
+        610973.125
+      ],
+      "confidence": 0.2021891176700592,
+      "class": "plastic-waste",
+      "area_pixel": 23384.734375,
+      "area_geo": 6.21484375,
+      "tile_index": 6169,
+      "tile_offset": [
+        31008,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006169_x31008_y17408_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        88407.8046875,
+        4909.24609375,
+        88768.0,
+        5419.73681640625
+      ],
+      "bbox_geo": [
+        804120.4375,
+        611180.0,
+        804126.3125,
+        611171.5625
+      ],
+      "center_pixel": [
+        88587.90625,
+        5164.4912109375
+      ],
+      "center_geo": [
+        804123.375,
+        611175.75
+      ],
+      "confidence": 0.1995389312505722,
+      "class": "plastic-waste",
+      "area_pixel": 183876.359375,
+      "area_geo": 49.5703125,
+      "tile_index": 1881,
+      "tile_offset": [
+        88128,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001881_x88128_y4896_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        23688.478515625,
+        18944.7109375,
+        23962.193359375,
+        19073.24609375
+      ],
+      "bbox_geo": [
+        803056.125,
+        610949.125,
+        803060.625,
+        610947.0
+      ],
+      "center_pixel": [
+        23825.3359375,
+        19008.978515625
+      ],
+      "center_geo": [
+        803058.375,
+        610948.0625
+      ],
+      "confidence": 0.19937127828598022,
+      "class": "plastic-waste",
+      "area_pixel": 35181.98046875,
+      "area_geo": 9.5625,
+      "tile_index": 6537,
+      "tile_offset": [
+        23392,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006537_x23392_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        25024.0,
+        18533.537109375,
+        25139.423828125,
+        18822.59765625
+      ],
+      "bbox_geo": [
+        803078.125,
+        610955.875,
+        803080.0,
+        610951.125
+      ],
+      "center_pixel": [
+        25081.7109375,
+        18678.06640625
+      ],
+      "center_geo": [
+        803079.0625,
+        610953.5
+      ],
+      "confidence": 0.19936662912368774,
+      "class": "plastic-waste",
+      "area_pixel": 33364.4765625,
+      "area_geo": 8.90625,
+      "tile_index": 6540,
+      "tile_offset": [
+        25024,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006540_x25024_y18496_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19642.07421875,
+        23674.2421875,
+        19692.123046875,
+        23735.357421875
+      ],
+      "bbox_geo": [
+        802989.5625,
+        610871.375,
+        802990.375,
+        610870.375
+      ],
+      "center_pixel": [
+        19667.0986328125,
+        23704.7998046875
+      ],
+      "center_geo": [
+        802989.96875,
+        610870.875
+      ],
+      "confidence": 0.19013792276382446,
+      "class": "plastic-waste",
+      "area_pixel": 3058.745861053467,
+      "area_geo": 0.8125,
+      "merged_from": 2,
+      "tile_index": 8248,
+      "tile_offset": [
+        19040,
+        23392
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008248_x19040_y23392_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        68230.6875,
+        9731.1708984375,
+        68408.0,
+        9869.060546875
+      ],
+      "bbox_geo": [
+        803788.625,
+        611099.6875,
+        803791.5,
+        611098.4375
+      ],
+      "center_pixel": [
+        68319.34375,
+        9800.11572265625
+      ],
+      "center_geo": [
+        803790.0625,
+        611099.0625
+      ],
+      "confidence": 0.19630219787359238,
+      "class": "plastic-waste",
+      "area_pixel": 24449.55828857422,
+      "area_geo": 3.59375,
+      "merged_from": 2,
+      "tile_index": 3563,
+      "tile_offset": [
+        68000,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003563_x68000_y9792_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29371.81640625,
+        22523.615234375,
+        29471.533203125,
+        22644.423828125
+      ],
+      "bbox_geo": [
+        803149.5625,
+        610890.3125,
+        803151.1875,
+        610888.3125
+      ],
+      "center_pixel": [
+        29421.67578125,
+        22584.01953125
+      ],
+      "center_geo": [
+        803150.375,
+        610889.3125
+      ],
+      "confidence": 0.19816280901432037,
+      "class": "plastic-waste",
+      "area_pixel": 12046.646484375,
+      "area_geo": 3.25,
+      "tile_index": 7884,
+      "tile_offset": [
+        28832,
+        22304
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007884_x28832_y22304_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        30436.029296875,
+        16211.3291015625,
+        30487.689453125,
+        16278.111328125
+      ],
+      "bbox_geo": [
+        803167.125,
+        610994.0625,
+        803167.9375,
+        610993.0
+      ],
+      "center_pixel": [
+        30461.859375,
+        16244.720703125
+      ],
+      "center_geo": [
+        803167.5,
+        610993.5
+      ],
+      "confidence": 0.19794721901416779,
+      "class": "plastic-waste",
+      "area_pixel": 3449.980224609375,
+      "area_geo": 0.86328125,
+      "tile_index": 5594,
+      "tile_offset": [
+        29920,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005594_x29920_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        35904.0,
+        15782.3388671875,
+        36488.421875,
+        16154.451171875
+      ],
+      "bbox_geo": [
+        803257.0,
+        611001.125,
+        803266.625,
+        610995.0
+      ],
+      "center_pixel": [
+        36196.2109375,
+        15968.39453125
+      ],
+      "center_geo": [
+        803261.8125,
+        610998.0625
+      ],
+      "confidence": 0.19793277978897095,
+      "class": "plastic-waste",
+      "area_pixel": 217470.578125,
+      "area_geo": 58.953125,
+      "tile_index": 5605,
+      "tile_offset": [
+        35904,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005605_x35904_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        65683.8671875,
+        10883.9501953125,
+        65918.2578125,
+        11440.2939453125
+      ],
+      "bbox_geo": [
+        803746.6875,
+        611081.6875,
+        803750.5625,
+        611072.5625
+      ],
+      "center_pixel": [
+        65801.0625,
+        11162.1220703125
+      ],
+      "center_geo": [
+        803748.625,
+        611077.125
+      ],
+      "confidence": 0.19711965322494507,
+      "class": "plastic-waste",
+      "area_pixel": 130401.7578125,
+      "area_geo": 35.359375,
+      "tile_index": 3940,
+      "tile_offset": [
+        65280,
+        10880
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003940_x65280_y10880_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        30849.7109375,
+        16869.099609375,
+        31104.0,
+        17356.3125
+      ],
+      "bbox_geo": [
+        803173.875,
+        610983.3125,
+        803178.0625,
+        610975.25
+      ],
+      "center_pixel": [
+        30976.85546875,
+        17112.70703125
+      ],
+      "center_geo": [
+        803176.0,
+        610979.25
+      ],
+      "confidence": 0.19671626389026642,
+      "class": "plastic-waste",
+      "area_pixel": 123892.90625,
+      "area_geo": 33.76171875,
+      "tile_index": 5977,
+      "tile_offset": [
+        30464,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005977_x30464_y16864_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101950.7265625,
+        879.0127563476562,
+        102366.9140625,
+        1182.833984375
+      ],
+      "bbox_geo": [
+        804343.125,
+        611246.25,
+        804349.9375,
+        611241.25
+      ],
+      "center_pixel": [
+        102158.8203125,
+        1030.92333984375
+      ],
+      "center_geo": [
+        804346.5,
+        611243.75
+      ],
+      "confidence": 0.19654230773448944,
+      "class": "plastic-waste",
+      "area_pixel": 126446.59375,
+      "area_geo": 34.0625,
+      "tile_index": 378,
+      "tile_offset": [
+        101728,
+        544
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000378_x101728_y544_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100780.75,
+        1208.0755615234375,
+        101279.4375,
+        1723.4757080078125
+      ],
+      "bbox_geo": [
+        804323.875,
+        611240.8125,
+        804332.0625,
+        611232.375
+      ],
+      "center_pixel": [
+        101030.09375,
+        1465.775634765625
+      ],
+      "center_geo": [
+        804328.0,
+        611236.625
+      ],
+      "confidence": 0.19630774855613708,
+      "class": "plastic-waste",
+      "area_pixel": 257023.609375,
+      "area_geo": 69.08203125,
+      "tile_index": 567,
+      "tile_offset": [
+        100640,
+        1088
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000567_x100640_y1088_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19533.17578125,
+        23420.38671875,
+        19565.703125,
+        23487.662109375
+      ],
+      "bbox_geo": [
+        802987.8125,
+        610875.5,
+        802988.3125,
+        610874.4375
+      ],
+      "center_pixel": [
+        19549.439453125,
+        23454.0234375
+      ],
+      "center_geo": [
+        802988.0625,
+        610875.0
+      ],
+      "confidence": 0.196248859167099,
+      "class": "plastic-waste",
+      "area_pixel": 2188.289794921875,
+      "area_geo": 0.53125,
+      "tile_index": 8057,
+      "tile_offset": [
+        19040,
+        22848
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008057_x19040_y22848_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101184.046875,
+        409.7531433105469,
+        101365.40625,
+        639.8916015625
+      ],
+      "bbox_geo": [
+        804330.5,
+        611253.9375,
+        804333.5,
+        611250.1875
+      ],
+      "center_pixel": [
+        101274.7265625,
+        524.8223876953125
+      ],
+      "center_geo": [
+        804332.0,
+        611252.0625
+      ],
+      "confidence": 0.19528204202651978,
+      "class": "plastic-waste",
+      "area_pixel": 41737.765625,
+      "area_geo": 11.25,
+      "tile_index": 186,
+      "tile_offset": [
+        101184,
+        0
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000186_x101184_y0_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17427.638671875,
+        20533.671875,
+        17504.0,
+        20728.52734375
+      ],
+      "bbox_geo": [
+        802953.1875,
+        610923.0,
+        802954.4375,
+        610919.8125
+      ],
+      "center_pixel": [
+        17465.8203125,
+        20631.099609375
+      ],
+      "center_geo": [
+        802953.8125,
+        610921.375
+      ],
+      "confidence": 0.19494938850402832,
+      "class": "plastic-waste",
+      "area_pixel": 14879.4228515625,
+      "area_geo": 3.984375,
+      "tile_index": 7098,
+      "tile_offset": [
+        16864,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007098_x16864_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        41044.5625,
+        15563.412109375,
+        41095.61328125,
+        15617.208984375
+      ],
+      "bbox_geo": [
+        803341.5,
+        611004.75,
+        803342.375,
+        611003.875
+      ],
+      "center_pixel": [
+        41070.0859375,
+        15590.310546875
+      ],
+      "center_geo": [
+        803341.9375,
+        611004.3125
+      ],
+      "confidence": 0.19462621212005615,
+      "class": "plastic-waste",
+      "area_pixel": 2746.37255859375,
+      "area_geo": 0.765625,
+      "tile_index": 5423,
+      "tile_offset": [
+        40800,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005423_x40800_y15232_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        32148.017578125,
+        16481.326171875,
+        32367.615234375,
+        16667.4453125
+      ],
+      "bbox_geo": [
+        803195.25,
+        610989.6875,
+        803198.8125,
+        610986.625
+      ],
+      "center_pixel": [
+        32257.81640625,
+        16574.38671875
+      ],
+      "center_geo": [
+        803197.0,
+        610988.125
+      ],
+      "confidence": 0.19399817287921906,
+      "class": "plastic-waste",
+      "area_pixel": 40871.328125,
+      "area_geo": 10.91015625,
+      "tile_index": 5789,
+      "tile_offset": [
+        32096,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005789_x32096_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        39286.484375,
+        14334.939453125,
+        39420.640625,
+        14458.53515625
+      ],
+      "bbox_geo": [
+        803312.625,
+        611024.9375,
+        803314.8125,
+        611022.875
+      ],
+      "center_pixel": [
+        39353.5625,
+        14396.7373046875
+      ],
+      "center_geo": [
+        803313.75,
+        611023.875
+      ],
+      "confidence": 0.19394268095493317,
+      "class": "plastic-waste",
+      "area_pixel": 16581.13671875,
+      "area_geo": 4.51171875,
+      "tile_index": 5038,
+      "tile_offset": [
+        39168,
+        14144
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005038_x39168_y14144_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16321.4013671875,
+        20128.14453125,
+        16599.3828125,
+        20323.40625
+      ],
+      "bbox_geo": [
+        802934.9375,
+        610929.6875,
+        802939.5625,
+        610926.5
+      ],
+      "center_pixel": [
+        16460.392578125,
+        20225.775390625
+      ],
+      "center_geo": [
+        802937.25,
+        610928.125
+      ],
+      "confidence": 0.19297997653484344,
+      "class": "plastic-waste",
+      "area_pixel": 54279.13671875,
+      "area_geo": 14.7421875,
+      "tile_index": 7097,
+      "tile_offset": [
+        16320,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007097_x16320_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        58576.1953125,
+        11148.875,
+        58700.7265625,
+        11295.7998046875
+      ],
+      "bbox_geo": [
+        803629.8125,
+        611077.3125,
+        803631.875,
+        611074.9375
+      ],
+      "center_pixel": [
+        58638.4609375,
+        11222.337890625
+      ],
+      "center_geo": [
+        803630.875,
+        611076.125
+      ],
+      "confidence": 0.1925009936094284,
+      "class": "plastic-waste",
+      "area_pixel": 18296.73046875,
+      "area_geo": 4.8984375,
+      "tile_index": 3927,
+      "tile_offset": [
+        58208,
+        10880
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003927_x58208_y10880_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        57120.0,
+        15777.0546875,
+        57548.734375,
+        16385.919921875
+      ],
+      "bbox_geo": [
+        803605.875,
+        611001.25,
+        803612.9375,
+        610991.25
+      ],
+      "center_pixel": [
+        57334.3671875,
+        16081.4873046875
+      ],
+      "center_geo": [
+        803609.375,
+        610996.25
+      ],
+      "confidence": 0.19129197299480438,
+      "class": "plastic-waste",
+      "area_pixel": 261041.453125,
+      "area_geo": 70.625,
+      "tile_index": 5644,
+      "tile_offset": [
+        57120,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005644_x57120_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19662.6328125,
+        21471.501953125,
+        19755.328125,
+        21542.37890625
+      ],
+      "bbox_geo": [
+        802989.9375,
+        610907.625,
+        802991.4375,
+        610906.4375
+      ],
+      "center_pixel": [
+        19708.98046875,
+        21506.94140625
+      ],
+      "center_geo": [
+        802990.6875,
+        610907.0
+      ],
+      "confidence": 0.19102151691913605,
+      "class": "plastic-waste",
+      "area_pixel": 6569.96142578125,
+      "area_geo": 1.78125,
+      "tile_index": 7485,
+      "tile_offset": [
+        19584,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007485_x19584_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        57120.0,
+        13602.685546875,
+        57485.55859375,
+        14209.4619140625
+      ],
+      "bbox_geo": [
+        803605.875,
+        611037.0,
+        803611.875,
+        611027.0625
+      ],
+      "center_pixel": [
+        57302.78125,
+        13906.07421875
+      ],
+      "center_geo": [
+        803608.875,
+        611032.0
+      ],
+      "confidence": 0.19042402505874634,
+      "class": "plastic-waste",
+      "area_pixel": 221812.3125,
+      "area_geo": 59.625,
+      "tile_index": 4880,
+      "tile_offset": [
+        57120,
+        13600
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004880_x57120_y13600_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100643.0078125,
+        1088.0,
+        101270.8984375,
+        1462.447998046875
+      ],
+      "bbox_geo": [
+        804321.625,
+        611242.8125,
+        804331.9375,
+        611236.625
+      ],
+      "center_pixel": [
+        100956.953125,
+        1275.2239990234375
+      ],
+      "center_geo": [
+        804326.75,
+        611239.75
+      ],
+      "confidence": 0.1899457424879074,
+      "class": "plastic-waste",
+      "area_pixel": 235112.390625,
+      "area_geo": 63.80859375,
+      "tile_index": 567,
+      "tile_offset": [
+        100640,
+        1088
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000567_x100640_y1088_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        65825.0625,
+        10193.447265625,
+        66171.03125,
+        10431.69921875
+      ],
+      "bbox_geo": [
+        803749.0,
+        611093.0625,
+        803754.6875,
+        611089.1875
+      ],
+      "center_pixel": [
+        65998.046875,
+        10312.5732421875
+      ],
+      "center_geo": [
+        803751.875,
+        611091.125
+      ],
+      "confidence": 0.18988953530788422,
+      "class": "plastic-waste",
+      "area_pixel": 82427.7265625,
+      "area_geo": 22.0390625,
+      "tile_index": 3559,
+      "tile_offset": [
+        65824,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003559_x65824_y9792_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        57120.0,
+        14689.810546875,
+        57523.5,
+        15296.6513671875
+      ],
+      "bbox_geo": [
+        803605.875,
+        611019.125,
+        803612.5,
+        611009.125
+      ],
+      "center_pixel": [
+        57321.75,
+        14993.23046875
+      ],
+      "center_geo": [
+        803609.1875,
+        611014.125
+      ],
+      "confidence": 0.1893879920244217,
+      "class": "plastic-waste",
+      "area_pixel": 244860.265625,
+      "area_geo": 66.25,
+      "tile_index": 5262,
+      "tile_offset": [
+        57120,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005262_x57120_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        91936.6015625,
+        4896.0,
+        92333.9140625,
+        5079.8603515625
+      ],
+      "bbox_geo": [
+        804178.375,
+        611180.1875,
+        804184.9375,
+        611177.1875
+      ],
+      "center_pixel": [
+        92135.2578125,
+        4987.93017578125
+      ],
+      "center_geo": [
+        804181.625,
+        611178.6875
+      ],
+      "confidence": 0.18923959136009216,
+      "class": "plastic-waste",
+      "area_pixel": 73050.015625,
+      "area_geo": 19.6875,
+      "tile_index": 1888,
+      "tile_offset": [
+        91936,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001888_x91936_y4896_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        20050.498046875,
+        20128.087890625,
+        20192.6328125,
+        20181.888671875
+      ],
+      "bbox_geo": [
+        802996.3125,
+        610929.6875,
+        802998.625,
+        610928.8125
+      ],
+      "center_pixel": [
+        20121.56640625,
+        20154.98828125
+      ],
+      "center_geo": [
+        802997.5,
+        610929.25
+      ],
+      "confidence": 0.1884922981262207,
+      "class": "plastic-waste",
+      "area_pixel": 7646.96142578125,
+      "area_geo": 2.0234375,
+      "tile_index": 7103,
+      "tile_offset": [
+        19584,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007103_x19584_y20128_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        35752.52734375,
+        15800.04296875,
+        35999.61328125,
+        16159.1796875
+      ],
+      "bbox_geo": [
+        803254.5,
+        611000.875,
+        803258.5625,
+        610994.9375
+      ],
+      "center_pixel": [
+        35876.0703125,
+        15979.611328125
+      ],
+      "center_geo": [
+        803256.5,
+        610997.875
+      ],
+      "confidence": 0.18836818635463715,
+      "class": "plastic-waste",
+      "area_pixel": 88737.6328125,
+      "area_geo": 24.12109375,
+      "tile_index": 5604,
+      "tile_offset": [
+        35360,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005604_x35360_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        10336.6552734375,
+        22122.0859375,
+        10715.203125,
+        22395.1484375
+      ],
+      "bbox_geo": [
+        802836.5625,
+        610896.9375,
+        802842.8125,
+        610892.4375
+      ],
+      "center_pixel": [
+        10525.9296875,
+        22258.6171875
+      ],
+      "center_geo": [
+        802839.6875,
+        610894.6875
+      ],
+      "confidence": 0.18656884133815765,
+      "class": "plastic-waste",
+      "area_pixel": 103367.2265625,
+      "area_geo": 28.125,
+      "tile_index": 7659,
+      "tile_offset": [
+        10336,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007659_x10336_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16886.7734375,
+        20672.138671875,
+        17482.453125,
+        20851.11328125
+      ],
+      "bbox_geo": [
+        802944.3125,
+        610920.75,
+        802954.125,
+        610917.8125
+      ],
+      "center_pixel": [
+        17184.61328125,
+        20761.625
+      ],
+      "center_geo": [
+        802949.25,
+        610919.25
+      ],
+      "confidence": 0.18613283336162567,
+      "class": "plastic-waste",
+      "area_pixel": 106611.5390625,
+      "area_geo": 28.82421875,
+      "tile_index": 7289,
+      "tile_offset": [
+        16864,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007289_x16864_y20672_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        67446.4140625,
+        13616.2509765625,
+        67481.6171875,
+        13653.6884765625
+      ],
+      "bbox_geo": [
+        803775.6875,
+        611036.75,
+        803776.25,
+        611036.1875
+      ],
+      "center_pixel": [
+        67464.015625,
+        13634.9697265625
+      ],
+      "center_geo": [
+        803775.96875,
+        611036.46875
+      ],
+      "confidence": 0.17042890191078186,
+      "class": "plastic-waste",
+      "area_pixel": 1317.9169921875,
+      "area_geo": 0.31640625,
+      "merged_from": 2,
+      "tile_index": 4707,
+      "tile_offset": [
+        66912,
+        13056
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004707_x66912_y13056_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        66710.78125,
+        9837.869140625,
+        67007.4140625,
+        10255.6318359375
+      ],
+      "bbox_geo": [
+        803763.5625,
+        611098.9375,
+        803768.4375,
+        611092.0625
+      ],
+      "center_pixel": [
+        66859.09375,
+        10046.75
+      ],
+      "center_geo": [
+        803766.0,
+        611095.5
+      ],
+      "confidence": 0.18514715135097504,
+      "class": "plastic-waste",
+      "area_pixel": 123922.125,
+      "area_geo": 33.515625,
+      "tile_index": 3560,
+      "tile_offset": [
+        66368,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003560_x66368_y9792_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        53704.9609375,
+        13183.240234375,
+        53780.92578125,
+        13231.2001953125
+      ],
+      "bbox_geo": [
+        803549.6875,
+        611043.9375,
+        803550.9375,
+        611043.125
+      ],
+      "center_pixel": [
+        53742.9453125,
+        13207.220703125
+      ],
+      "center_geo": [
+        803550.3125,
+        611043.5
+      ],
+      "confidence": 0.1845405101776123,
+      "class": "plastic-waste",
+      "area_pixel": 3643.27099609375,
+      "area_geo": 1.015625,
+      "tile_index": 4682,
+      "tile_offset": [
+        53312,
+        13056
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004682_x53312_y13056_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101184.0,
+        654.4876098632812,
+        101625.2890625,
+        1184.0
+      ],
+      "bbox_geo": [
+        804330.5,
+        611249.9375,
+        804337.75,
+        611241.25
+      ],
+      "center_pixel": [
+        101404.640625,
+        919.2437744140625
+      ],
+      "center_geo": [
+        804334.125,
+        611245.625
+      ],
+      "confidence": 0.18412943184375763,
+      "class": "plastic-waste",
+      "area_pixel": 233668.03125,
+      "area_geo": 62.984375,
+      "tile_index": 377,
+      "tile_offset": [
+        101184,
+        544
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000377_x101184_y544_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        24346.880859375,
+        17912.791015625,
+        24432.748046875,
+        17986.796875
+      ],
+      "bbox_geo": [
+        803066.9375,
+        610966.125,
+        803068.375,
+        610964.9375
+      ],
+      "center_pixel": [
+        24389.814453125,
+        17949.79296875
+      ],
+      "center_geo": [
+        803067.625,
+        610965.5
+      ],
+      "confidence": 0.18265791237354279,
+      "class": "plastic-waste",
+      "area_pixel": 6354.6748046875,
+      "area_geo": 1.70703125,
+      "tile_index": 6156,
+      "tile_offset": [
+        23936,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006156_x23936_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38774.7109375,
+        17027.759765625,
+        38850.66015625,
+        17148.078125
+      ],
+      "bbox_geo": [
+        803304.25,
+        610980.6875,
+        803305.5,
+        610978.6875
+      ],
+      "center_pixel": [
+        38812.6875,
+        17087.91796875
+      ],
+      "center_geo": [
+        803304.875,
+        610979.6875
+      ],
+      "confidence": 0.1821727305650711,
+      "class": "plastic-waste",
+      "area_pixel": 9138.0849609375,
+      "area_geo": 2.5,
+      "tile_index": 5992,
+      "tile_offset": [
+        38624,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005992_x38624_y16864_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17109.947265625,
+        20054.150390625,
+        17392.322265625,
+        20224.0
+      ],
+      "bbox_geo": [
+        802948.0,
+        610930.875,
+        802952.625,
+        610928.125
+      ],
+      "center_pixel": [
+        17251.134765625,
+        20139.07421875
+      ],
+      "center_geo": [
+        802950.3125,
+        610929.5
+      ],
+      "confidence": 0.1814509481191635,
+      "class": "plastic-waste",
+      "area_pixel": 47961.28515625,
+      "area_geo": 12.71875,
+      "tile_index": 6907,
+      "tile_offset": [
+        16864,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006907_x16864_y19584_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        46784.65234375,
+        15068.1298828125,
+        46983.0390625,
+        15326.927734375
+      ],
+      "bbox_geo": [
+        803435.9375,
+        611012.875,
+        803439.1875,
+        611008.625
+      ],
+      "center_pixel": [
+        46883.84375,
+        15197.529296875
+      ],
+      "center_geo": [
+        803437.5625,
+        611010.75
+      ],
+      "confidence": 0.18131999671459198,
+      "class": "plastic-waste",
+      "area_pixel": 51342.0546875,
+      "area_geo": 13.8125,
+      "tile_index": 5243,
+      "tile_offset": [
+        46784,
+        14688
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005243_x46784_y14688_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        26293.474609375,
+        17370.517578125,
+        26414.171875,
+        17474.142578125
+      ],
+      "bbox_geo": [
+        803099.0,
+        610975.0625,
+        803101.0,
+        610973.3125
+      ],
+      "center_pixel": [
+        26353.82421875,
+        17422.330078125
+      ],
+      "center_geo": [
+        803100.0,
+        610974.1875
+      ],
+      "confidence": 0.18114328384399414,
+      "class": "plastic-waste",
+      "area_pixel": 12507.25390625,
+      "area_geo": 3.5,
+      "tile_index": 5969,
+      "tile_offset": [
+        26112,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005969_x26112_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        7363.505859375,
+        22227.904296875,
+        7617.35302734375,
+        22398.83203125
+      ],
+      "bbox_geo": [
+        802787.6875,
+        610895.1875,
+        802791.8125,
+        610892.375
+      ],
+      "center_pixel": [
+        7490.4296875,
+        22313.3671875
+      ],
+      "center_geo": [
+        802789.75,
+        610893.75
+      ],
+      "confidence": 0.18106737732887268,
+      "class": "plastic-waste",
+      "area_pixel": 43389.51953125,
+      "area_geo": 11.6015625,
+      "tile_index": 7653,
+      "tile_offset": [
+        7072,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007653_x7072_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37511.5703125,
+        18780.28125,
+        37631.77734375,
+        19132.416015625
+      ],
+      "bbox_geo": [
+        803283.4375,
+        610951.8125,
+        803285.375,
+        610946.0625
+      ],
+      "center_pixel": [
+        37571.671875,
+        18956.34765625
+      ],
+      "center_geo": [
+        803284.375,
+        610948.9375
+      ],
+      "confidence": 0.18087701499462128,
+      "class": "plastic-waste",
+      "area_pixel": 42329.07421875,
+      "area_geo": 11.140625,
+      "tile_index": 6562,
+      "tile_offset": [
+        36992,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006562_x36992_y18496_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        39168.3671875,
+        19723.76953125,
+        39408.75390625,
+        20224.0
+      ],
+      "bbox_geo": [
+        803310.6875,
+        610936.3125,
+        803314.625,
+        610928.125
+      ],
+      "center_pixel": [
+        39288.5625,
+        19973.884765625
+      ],
+      "center_geo": [
+        803312.625,
+        610932.25
+      ],
+      "confidence": 0.1804511994123459,
+      "class": "plastic-waste",
+      "area_pixel": 120248.7578125,
+      "area_geo": 32.23828125,
+      "tile_index": 6948,
+      "tile_offset": [
+        39168,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006948_x39168_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        90304.828125,
+        5245.5771484375,
+        90522.5703125,
+        5535.33203125
+      ],
+      "bbox_geo": [
+        804151.5625,
+        611174.4375,
+        804155.1875,
+        611169.6875
+      ],
+      "center_pixel": [
+        90413.703125,
+        5390.45458984375
+      ],
+      "center_geo": [
+        804153.375,
+        611172.0625
+      ],
+      "confidence": 0.18038427829742432,
+      "class": "plastic-waste",
+      "area_pixel": 63091.86328125,
+      "area_geo": 17.21875,
+      "tile_index": 1885,
+      "tile_offset": [
+        90304,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001885_x90304_y4896_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        78336.03125,
+        7359.41064453125,
+        78509.1484375,
+        7705.0869140625
+      ],
+      "bbox_geo": [
+        803954.75,
+        611139.625,
+        803957.625,
+        611133.9375
+      ],
+      "center_pixel": [
+        78422.59375,
+        7532.2490234375
+      ],
+      "center_geo": [
+        803956.1875,
+        611136.75
+      ],
+      "confidence": 0.18009229004383087,
+      "class": "plastic-waste",
+      "area_pixel": 59842.50390625,
+      "area_geo": 16.3515625,
+      "tile_index": 2627,
+      "tile_offset": [
+        78336,
+        7072
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002627_x78336_y7072_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        75413.8515625,
+        9248.0,
+        75712.0,
+        9854.9541015625
+      ],
+      "bbox_geo": [
+        803906.6875,
+        611108.625,
+        803911.5625,
+        611098.625
+      ],
+      "center_pixel": [
+        75562.921875,
+        9551.4765625
+      ],
+      "center_geo": [
+        803909.125,
+        611103.625
+      ],
+      "confidence": 0.1798703819513321,
+      "class": "plastic-waste",
+      "area_pixel": 180962.421875,
+      "area_geo": 48.75,
+      "tile_index": 3385,
+      "tile_offset": [
+        75072,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003385_x75072_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        25727.25390625,
+        18342.650390625,
+        25774.73828125,
+        18396.8046875
+      ],
+      "bbox_geo": [
+        803089.6875,
+        610959.0625,
+        803090.4375,
+        610958.1875
+      ],
+      "center_pixel": [
+        25750.99609375,
+        18369.7265625
+      ],
+      "center_geo": [
+        803090.0625,
+        610958.625
+      ],
+      "confidence": 0.1798253208398819,
+      "class": "plastic-waste",
+      "area_pixel": 2571.48291015625,
+      "area_geo": 0.65625,
+      "tile_index": 6350,
+      "tile_offset": [
+        25568,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006350_x25568_y17952_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19191.255859375,
+        24300.86328125,
+        19246.318359375,
+        24371.734375
+      ],
+      "bbox_geo": [
+        802982.1875,
+        610861.0625,
+        802983.0625,
+        610859.875
+      ],
+      "center_pixel": [
+        19218.787109375,
+        24336.298828125
+      ],
+      "center_geo": [
+        802982.625,
+        610860.5
+      ],
+      "confidence": 0.1797848790884018,
+      "class": "plastic-waste",
+      "area_pixel": 3902.339599609375,
+      "area_geo": 1.0390625,
+      "tile_index": 8439,
+      "tile_offset": [
+        19040,
+        23936
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008439_x19040_y23936_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        98464.0,
+        2176.0,
+        98812.1640625,
+        2706.20703125
+      ],
+      "bbox_geo": [
+        804285.75,
+        611224.875,
+        804291.5,
+        611216.125
+      ],
+      "center_pixel": [
+        98638.078125,
+        2441.103515625
+      ],
+      "center_geo": [
+        804288.625,
+        611220.5
+      ],
+      "confidence": 0.17966671288013458,
+      "class": "plastic-waste",
+      "area_pixel": 184599.03125,
+      "area_geo": 50.3125,
+      "tile_index": 945,
+      "tile_offset": [
+        98464,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000945_x98464_y2176_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38624.0,
+        19593.087890625,
+        38956.26953125,
+        20064.2265625
+      ],
+      "bbox_geo": [
+        803301.75,
+        610938.5,
+        803307.1875,
+        610930.75
+      ],
+      "center_pixel": [
+        38790.1328125,
+        19828.65625
+      ],
+      "center_geo": [
+        803304.5,
+        610934.625
+      ],
+      "confidence": 0.17927305400371552,
+      "class": "plastic-waste",
+      "area_pixel": 156545.03125,
+      "area_geo": 42.140625,
+      "tile_index": 6947,
+      "tile_offset": [
+        38624,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006947_x38624_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        75616.0,
+        10336.013671875,
+        76148.8984375,
+        10951.337890625
+      ],
+      "bbox_geo": [
+        803910.0625,
+        611090.6875,
+        803918.8125,
+        611080.5625
+      ],
+      "center_pixel": [
+        75882.453125,
+        10643.67578125
+      ],
+      "center_geo": [
+        803914.4375,
+        611085.625
+      ],
+      "confidence": 0.17898015677928925,
+      "class": "plastic-waste",
+      "area_pixel": 327905.3125,
+      "area_geo": 88.59375,
+      "tile_index": 3768,
+      "tile_offset": [
+        75616,
+        10336
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003768_x75616_y10336_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38447.22265625,
+        16320.0,
+        38720.0,
+        16504.462890625
+      ],
+      "bbox_geo": [
+        803298.875,
+        610992.3125,
+        803303.3125,
+        610989.25
+      ],
+      "center_pixel": [
+        38583.609375,
+        16412.23046875
+      ],
+      "center_geo": [
+        803301.125,
+        610990.75
+      ],
+      "confidence": 0.17893651127815247,
+      "class": "plastic-waste",
+      "area_pixel": 50317.296875,
+      "area_geo": 13.58984375,
+      "tile_index": 5800,
+      "tile_offset": [
+        38080,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005800_x38080_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        66161.484375,
+        13056.0,
+        66464.0,
+        13663.4697265625
+      ],
+      "bbox_geo": [
+        803754.5625,
+        611046.0,
+        803759.5,
+        611036.0
+      ],
+      "center_pixel": [
+        66312.7421875,
+        13359.734375
+      ],
+      "center_geo": [
+        803757.0,
+        611041.0
+      ],
+      "confidence": 0.17882607877254486,
+      "class": "plastic-waste",
+      "area_pixel": 183769.078125,
+      "area_geo": 49.375,
+      "tile_index": 4705,
+      "tile_offset": [
+        65824,
+        13056
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004705_x65824_y13056_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        20128.201171875,
+        24480.0,
+        20284.5546875,
+        24682.86328125
+      ],
+      "bbox_geo": [
+        802997.5625,
+        610858.125,
+        803000.125,
+        610854.8125
+      ],
+      "center_pixel": [
+        20206.37890625,
+        24581.431640625
+      ],
+      "center_geo": [
+        802998.875,
+        610856.5
+      ],
+      "confidence": 0.1781439483165741,
+      "class": "plastic-waste",
+      "area_pixel": 31718.38671875,
+      "area_geo": 8.48828125,
+      "tile_index": 8632,
+      "tile_offset": [
+        20128,
+        24480
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008632_x20128_y24480_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        12887.05859375,
+        21422.7890625,
+        13150.9423828125,
+        21677.45703125
+      ],
+      "bbox_geo": [
+        802878.5625,
+        610908.4375,
+        802882.875,
+        610904.25
+      ],
+      "center_pixel": [
+        13019.0,
+        21550.123046875
+      ],
+      "center_geo": [
+        802880.75,
+        610906.375
+      ],
+      "confidence": 0.1779809147119522,
+      "class": "plastic-waste",
+      "area_pixel": 67202.75,
+      "area_geo": 18.05859375,
+      "tile_index": 7472,
+      "tile_offset": [
+        12512,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007472_x12512_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        57876.88671875,
+        13645.7353515625,
+        57908.1875,
+        13674.095703125
+      ],
+      "bbox_geo": [
+        803618.3125,
+        611036.3125,
+        803618.8125,
+        611035.875
+      ],
+      "center_pixel": [
+        57892.5390625,
+        13659.916015625
+      ],
+      "center_geo": [
+        803618.5625,
+        611036.125
+      ],
+      "confidence": 0.1775469332933426,
+      "class": "plastic-waste",
+      "area_pixel": 887.701171875,
+      "area_geo": 0.21875,
+      "tile_index": 4881,
+      "tile_offset": [
+        57664,
+        13600
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004881_x57664_y13600_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47554.22265625,
+        16864.669921875,
+        47968.0,
+        17464.546875
+      ],
+      "bbox_geo": [
+        803448.625,
+        610983.375,
+        803455.375,
+        610973.5
+      ],
+      "center_pixel": [
+        47761.109375,
+        17164.609375
+      ],
+      "center_geo": [
+        803452.0,
+        610978.4375
+      ],
+      "confidence": 0.1775231510400772,
+      "class": "plastic-waste",
+      "area_pixel": 248215.5,
+      "area_geo": 66.65625,
+      "tile_index": 6008,
+      "tile_offset": [
+        47328,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006008_x47328_y16864_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101728.0,
+        1347.91162109375,
+        102159.03125,
+        1726.6103515625
+      ],
+      "bbox_geo": [
+        804339.4375,
+        611238.5625,
+        804346.5,
+        611232.3125
+      ],
+      "center_pixel": [
+        101943.515625,
+        1537.260986328125
+      ],
+      "center_geo": [
+        804343.0,
+        611235.4375
+      ],
+      "confidence": 0.17716176807880402,
+      "class": "plastic-waste",
+      "area_pixel": 163230.984375,
+      "area_geo": 44.140625,
+      "tile_index": 569,
+      "tile_offset": [
+        101728,
+        1088
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000569_x101728_y1088_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47645.27734375,
+        17408.552734375,
+        47963.19140625,
+        18018.591796875
+      ],
+      "bbox_geo": [
+        803450.0625,
+        610974.4375,
+        803455.3125,
+        610964.375
+      ],
+      "center_pixel": [
+        47804.234375,
+        17713.572265625
+      ],
+      "center_geo": [
+        803452.6875,
+        610969.375
+      ],
+      "confidence": 0.17690008878707886,
+      "class": "plastic-waste",
+      "area_pixel": 193940.0,
+      "area_geo": 52.828125,
+      "tile_index": 6199,
+      "tile_offset": [
+        47328,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006199_x47328_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37762.67578125,
+        19111.927734375,
+        38159.9609375,
+        19673.421875
+      ],
+      "bbox_geo": [
+        803287.5625,
+        610946.375,
+        803294.0625,
+        610937.125
+      ],
+      "center_pixel": [
+        37961.3203125,
+        19392.67578125
+      ],
+      "center_geo": [
+        803290.8125,
+        610941.75
+      ],
+      "confidence": 0.1764211356639862,
+      "class": "plastic-waste",
+      "area_pixel": 223073.28125,
+      "area_geo": 60.125,
+      "tile_index": 6754,
+      "tile_offset": [
+        37536,
+        19040
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006754_x37536_y19040_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        57120.0,
+        15233.291015625,
+        57524.875,
+        15839.95703125
+      ],
+      "bbox_geo": [
+        803605.875,
+        611010.1875,
+        803612.5625,
+        611000.1875
+      ],
+      "center_pixel": [
+        57322.4375,
+        15536.6240234375
+      ],
+      "center_geo": [
+        803609.25,
+        611005.1875
+      ],
+      "confidence": 0.1757754683494568,
+      "class": "plastic-waste",
+      "area_pixel": 245623.90625,
+      "area_geo": 66.875,
+      "tile_index": 5453,
+      "tile_offset": [
+        57120,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005453_x57120_y15232_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47789.0078125,
+        15639.9501953125,
+        47963.25,
+        15789.705078125
+      ],
+      "bbox_geo": [
+        803452.4375,
+        611003.5,
+        803455.3125,
+        611001.0
+      ],
+      "center_pixel": [
+        47876.12890625,
+        15714.828125
+      ],
+      "center_geo": [
+        803453.875,
+        611002.25
+      ],
+      "confidence": 0.17519280314445496,
+      "class": "plastic-waste",
+      "area_pixel": 26093.619140625,
+      "area_geo": 7.1875,
+      "tile_index": 5435,
+      "tile_offset": [
+        47328,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005435_x47328_y15232_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        15774.44140625,
+        20953.888671875,
+        15871.9228515625,
+        21081.390625
+      ],
+      "bbox_geo": [
+        802926.0,
+        610916.125,
+        802927.5625,
+        610914.0
+      ],
+      "center_pixel": [
+        15823.181640625,
+        21017.640625
+      ],
+      "center_geo": [
+        802926.75,
+        610915.0625
+      ],
+      "confidence": 0.17518581449985504,
+      "class": "plastic-waste",
+      "area_pixel": 12429.07421875,
+      "area_geo": 3.3203125,
+      "tile_index": 7286,
+      "tile_offset": [
+        15232,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007286_x15232_y20672_dets4.jpg"
+    },
+    {
+      "bbox_pixel": [
+        18496.01953125,
+        21122.63671875,
+        18597.138671875,
+        21306.98046875
+      ],
+      "bbox_geo": [
+        802970.75,
+        610913.3125,
+        802972.4375,
+        610910.3125
+      ],
+      "center_pixel": [
+        18546.578125,
+        21214.80859375
+      ],
+      "center_geo": [
+        802971.625,
+        610911.8125
+      ],
+      "confidence": 0.17510434985160828,
+      "class": "plastic-waste",
+      "area_pixel": 18640.681640625,
+      "area_geo": 5.0625,
+      "tile_index": 7292,
+      "tile_offset": [
+        18496,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007292_x18496_y20672_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16893.9609375,
+        20544.927734375,
+        17504.0,
+        20768.0
+      ],
+      "bbox_geo": [
+        802944.4375,
+        610922.8125,
+        802954.4375,
+        610919.1875
+      ],
+      "center_pixel": [
+        17198.98046875,
+        20656.46484375
+      ],
+      "center_geo": [
+        802949.4375,
+        610921.0
+      ],
+      "confidence": 0.1745705008506775,
+      "class": "plastic-waste",
+      "area_pixel": 136082.796875,
+      "area_geo": 36.25,
+      "tile_index": 7098,
+      "tile_offset": [
+        16864,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007098_x16864_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29376.544921875,
+        18564.44140625,
+        29608.083984375,
+        19095.841796875
+      ],
+      "bbox_geo": [
+        803149.6875,
+        610955.375,
+        803153.5,
+        610946.625
+      ],
+      "center_pixel": [
+        29492.314453125,
+        18830.140625
+      ],
+      "center_geo": [
+        803151.625,
+        610951.0
+      ],
+      "confidence": 0.1732899397611618,
+      "class": "plastic-waste",
+      "area_pixel": 123039.9453125,
+      "area_geo": 33.359375,
+      "tile_index": 6548,
+      "tile_offset": [
+        29376,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006548_x29376_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        13632.5400390625,
+        20436.625,
+        13686.3994140625,
+        20491.1640625
+      ],
+      "bbox_geo": [
+        802890.8125,
+        610924.625,
+        802891.6875,
+        610923.6875
+      ],
+      "center_pixel": [
+        13659.4697265625,
+        20463.89453125
+      ],
+      "center_geo": [
+        802891.25,
+        610924.15625
+      ],
+      "confidence": 0.16467810422182083,
+      "class": "plastic-waste",
+      "area_pixel": 2937.4398193359375,
+      "area_geo": 0.8203125,
+      "merged_from": 2,
+      "tile_index": 7091,
+      "tile_offset": [
+        13056,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007091_x13056_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47872.2421875,
+        15233.1005859375,
+        48042.3125,
+        15632.431640625
+      ],
+      "bbox_geo": [
+        803453.8125,
+        611010.1875,
+        803456.625,
+        611003.625
+      ],
+      "center_pixel": [
+        47957.27734375,
+        15432.765625
+      ],
+      "center_geo": [
+        803455.25,
+        611006.875
+      ],
+      "confidence": 0.17258796095848083,
+      "class": "plastic-waste",
+      "area_pixel": 67914.359375,
+      "area_geo": 18.45703125,
+      "tile_index": 5436,
+      "tile_offset": [
+        47872,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005436_x47872_y15232_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47407.625,
+        18497.21875,
+        47968.0,
+        19113.3046875
+      ],
+      "bbox_geo": [
+        803446.1875,
+        610956.5,
+        803455.375,
+        610946.375
+      ],
+      "center_pixel": [
+        47687.8125,
+        18805.26171875
+      ],
+      "center_geo": [
+        803450.75,
+        610951.4375
+      ],
+      "confidence": 0.17201438546180725,
+      "class": "plastic-waste",
+      "area_pixel": 345239.15625,
+      "area_geo": 93.0234375,
+      "tile_index": 6581,
+      "tile_offset": [
+        47328,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006581_x47328_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        63421.5078125,
+        10587.279296875,
+        63743.05859375,
+        10974.08203125
+      ],
+      "bbox_geo": [
+        803709.5625,
+        611086.5625,
+        803714.8125,
+        611080.1875
+      ],
+      "center_pixel": [
+        63582.28125,
+        10780.6806640625
+      ],
+      "center_geo": [
+        803712.1875,
+        611083.375
+      ],
+      "confidence": 0.1718120276927948,
+      "class": "plastic-waste",
+      "area_pixel": 124376.71875,
+      "area_geo": 33.46875,
+      "tile_index": 3745,
+      "tile_offset": [
+        63104,
+        10336
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003745_x63104_y10336_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101729.3125,
+        1633.880615234375,
+        101999.484375,
+        2052.607421875
+      ],
+      "bbox_geo": [
+        804339.4375,
+        611233.8125,
+        804343.875,
+        611226.875
+      ],
+      "center_pixel": [
+        101864.3984375,
+        1843.2440185546875
+      ],
+      "center_geo": [
+        804341.625,
+        611230.375
+      ],
+      "confidence": 0.17090089619159698,
+      "class": "plastic-waste",
+      "area_pixel": 113128.203125,
+      "area_geo": 30.78515625,
+      "tile_index": 760,
+      "tile_offset": [
+        101728,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000760_x101728_y1632_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37536.0,
+        18496.08203125,
+        37748.25390625,
+        18741.546875
+      ],
+      "bbox_geo": [
+        803283.8125,
+        610956.5,
+        803287.3125,
+        610952.4375
+      ],
+      "center_pixel": [
+        37642.125,
+        18618.814453125
+      ],
+      "center_geo": [
+        803285.5625,
+        610954.5
+      ],
+      "confidence": 0.1708851009607315,
+      "class": "plastic-waste",
+      "area_pixel": 52100.87109375,
+      "area_geo": 14.21875,
+      "tile_index": 6563,
+      "tile_offset": [
+        37536,
+        18496
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006563_x37536_y18496_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37776.84375,
+        19585.34765625,
+        38176.0,
+        20194.93359375
+      ],
+      "bbox_geo": [
+        803287.75,
+        610938.625,
+        803294.3125,
+        610928.5625
+      ],
+      "center_pixel": [
+        37976.421875,
+        19890.140625
+      ],
+      "center_geo": [
+        803291.0,
+        610933.625
+      ],
+      "confidence": 0.1701749563217163,
+      "class": "plastic-waste",
+      "area_pixel": 243320.03125,
+      "area_geo": 66.03515625,
+      "tile_index": 6945,
+      "tile_offset": [
+        37536,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006945_x37536_y19584_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        84864.546875,
+        7619.083984375,
+        85099.515625,
+        8175.62109375
+      ],
+      "bbox_geo": [
+        804062.125,
+        611135.375,
+        804066.0,
+        611126.25
+      ],
+      "center_pixel": [
+        84982.03125,
+        7897.3525390625
+      ],
+      "center_geo": [
+        804064.0625,
+        611130.8125
+      ],
+      "confidence": 0.16971702873706818,
+      "class": "plastic-waste",
+      "area_pixel": 130768.828125,
+      "area_geo": 35.359375,
+      "tile_index": 2830,
+      "tile_offset": [
+        84864,
+        7616
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002830_x84864_y7616_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        88128.515625,
+        5634.4013671875,
+        88284.8984375,
+        5876.57177734375
+      ],
+      "bbox_geo": [
+        804115.8125,
+        611168.0625,
+        804118.375,
+        611164.0625
+      ],
+      "center_pixel": [
+        88206.703125,
+        5755.486328125
+      ],
+      "center_geo": [
+        804117.125,
+        611166.0625
+      ],
+      "confidence": 0.169695183634758,
+      "class": "plastic-waste",
+      "area_pixel": 37871.2890625,
+      "area_geo": 10.25,
+      "tile_index": 2072,
+      "tile_offset": [
+        88128,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002072_x88128_y5440_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        69232.921875,
+        9476.7822265625,
+        69366.5078125,
+        9588.79296875
+      ],
+      "bbox_geo": [
+        803805.0625,
+        611104.875,
+        803807.25,
+        611103.0
+      ],
+      "center_pixel": [
+        69299.71875,
+        9532.787109375
+      ],
+      "center_geo": [
+        803806.125,
+        611103.9375
+      ],
+      "confidence": 0.1694742888212204,
+      "class": "plastic-waste",
+      "area_pixel": 14963.0595703125,
+      "area_geo": 4.1015625,
+      "tile_index": 3374,
+      "tile_offset": [
+        69088,
+        9248
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003374_x69088_y9248_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        33408.4375,
+        16346.9853515625,
+        33573.421875,
+        16518.375
+      ],
+      "bbox_geo": [
+        803215.9375,
+        610991.875,
+        803218.625,
+        610989.0625
+      ],
+      "center_pixel": [
+        33490.9296875,
+        16432.6796875
+      ],
+      "center_geo": [
+        803217.25,
+        610990.5
+      ],
+      "confidence": 0.16933473944664001,
+      "class": "plastic-waste",
+      "area_pixel": 28276.61328125,
+      "area_geo": 7.55859375,
+      "tile_index": 5791,
+      "tile_offset": [
+        33184,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005791_x33184_y16320_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        84443.078125,
+        5984.0,
+        84674.7734375,
+        6174.09033203125
+      ],
+      "bbox_geo": [
+        804055.1875,
+        611162.25,
+        804059.0,
+        611159.125
+      ],
+      "center_pixel": [
+        84558.921875,
+        6079.044921875
+      ],
+      "center_geo": [
+        804057.125,
+        611160.6875
+      ],
+      "confidence": 0.16913370788097382,
+      "class": "plastic-waste",
+      "area_pixel": 44043.0390625,
+      "area_geo": 11.9140625,
+      "tile_index": 2256,
+      "tile_offset": [
+        84320,
+        5984
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002256_x84320_y5984_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56585.2421875,
+        15232.439453125,
+        57216.0,
+        15851.65625
+      ],
+      "bbox_geo": [
+        803597.0625,
+        611010.1875,
+        803607.4375,
+        611000.0
+      ],
+      "center_pixel": [
+        56900.62109375,
+        15542.0478515625
+      ],
+      "center_geo": [
+        803602.25,
+        611005.125
+      ],
+      "confidence": 0.16901253163814545,
+      "class": "plastic-waste",
+      "area_pixel": 390575.84375,
+      "area_geo": 105.6953125,
+      "tile_index": 5452,
+      "tile_offset": [
+        56576,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005452_x56576_y15232_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        31728.380859375,
+        16347.486328125,
+        31987.716796875,
+        16746.23828125
+      ],
+      "bbox_geo": [
+        803188.3125,
+        610991.875,
+        803192.625,
+        610985.3125
+      ],
+      "center_pixel": [
+        31858.048828125,
+        16546.86328125
+      ],
+      "center_geo": [
+        803190.5,
+        610988.625
+      ],
+      "confidence": 0.1685502976179123,
+      "class": "plastic-waste",
+      "area_pixel": 103410.7109375,
+      "area_geo": 28.30078125,
+      "tile_index": 5788,
+      "tile_offset": [
+        31552,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005788_x31552_y16320_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16683.482421875,
+        20954.5078125,
+        16727.13671875,
+        20996.0859375
+      ],
+      "bbox_geo": [
+        802940.9375,
+        610916.125,
+        802941.625,
+        610915.4375
+      ],
+      "center_pixel": [
+        16705.30859375,
+        20975.296875
+      ],
+      "center_geo": [
+        802941.25,
+        610915.75
+      ],
+      "confidence": 0.16828444600105286,
+      "class": "plastic-waste",
+      "area_pixel": 1815.0638427734375,
+      "area_geo": 0.47265625,
+      "tile_index": 7288,
+      "tile_offset": [
+        16320,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007288_x16320_y20672_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        19488.21875,
+        23305.451171875,
+        19515.947265625,
+        23351.822265625
+      ],
+      "bbox_geo": [
+        802987.0625,
+        610877.4375,
+        802987.5,
+        610876.625
+      ],
+      "center_pixel": [
+        19502.08203125,
+        23328.63671875
+      ],
+      "center_geo": [
+        802987.25,
+        610877.0
+      ],
+      "confidence": 0.16799286007881165,
+      "class": "plastic-waste",
+      "area_pixel": 1285.8016357421875,
+      "area_geo": 0.35546875,
+      "tile_index": 8057,
+      "tile_offset": [
+        19040,
+        22848
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008057_x19040_y22848_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37408.71875,
+        18019.376953125,
+        37631.20703125,
+        18589.94140625
+      ],
+      "bbox_geo": [
+        803281.75,
+        610964.375,
+        803285.375,
+        610955.0
+      ],
+      "center_pixel": [
+        37519.9609375,
+        18304.66015625
+      ],
+      "center_geo": [
+        803283.5625,
+        610959.6875
+      ],
+      "confidence": 0.16785520315170288,
+      "class": "plastic-waste",
+      "area_pixel": 126943.90625,
+      "area_geo": 33.984375,
+      "tile_index": 6371,
+      "tile_offset": [
+        36992,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006371_x36992_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47816.1171875,
+        15383.21875,
+        47967.48046875,
+        15577.1630859375
+      ],
+      "bbox_geo": [
+        803452.875,
+        611007.6875,
+        803455.375,
+        611004.5
+      ],
+      "center_pixel": [
+        47891.796875,
+        15480.19140625
+      ],
+      "center_geo": [
+        803454.125,
+        611006.125
+      ],
+      "confidence": 0.16759604215621948,
+      "class": "plastic-waste",
+      "area_pixel": 29356.05078125,
+      "area_geo": 7.96875,
+      "tile_index": 5435,
+      "tile_offset": [
+        47328,
+        15232
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005435_x47328_y15232_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16072.6015625,
+        21242.91015625,
+        16123.6884765625,
+        21294.978515625
+      ],
+      "bbox_geo": [
+        802930.875,
+        610911.375,
+        802931.6875,
+        610910.5
+      ],
+      "center_pixel": [
+        16098.14453125,
+        21268.9453125
+      ],
+      "center_geo": [
+        802931.25,
+        610910.9375
+      ],
+      "confidence": 0.16736364364624023,
+      "class": "plastic-waste",
+      "area_pixel": 2660.01171875,
+      "area_geo": 0.7109375,
+      "tile_index": 7287,
+      "tile_offset": [
+        15776,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007287_x15776_y20672_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        30960.697265625,
+        17331.9765625,
+        31103.74609375,
+        17502.833984375
+      ],
+      "bbox_geo": [
+        803175.75,
+        610975.6875,
+        803178.0625,
+        610972.875
+      ],
+      "center_pixel": [
+        31032.22265625,
+        17417.40625
+      ],
+      "center_geo": [
+        803176.875,
+        610974.25
+      ],
+      "confidence": 0.16653095185756683,
+      "class": "plastic-waste",
+      "area_pixel": 24440.953125,
+      "area_geo": 6.50390625,
+      "tile_index": 5977,
+      "tile_offset": [
+        30464,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005977_x30464_y16864_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        90556.6484375,
+        4896.0703125,
+        90854.125,
+        5082.095703125
+      ],
+      "bbox_geo": [
+        804155.6875,
+        611180.1875,
+        804160.625,
+        611177.125
+      ],
+      "center_pixel": [
+        90705.390625,
+        4989.0830078125
+      ],
+      "center_geo": [
+        804158.125,
+        611178.625
+      ],
+      "confidence": 0.16613978147506714,
+      "class": "plastic-waste",
+      "area_pixel": 55338.1953125,
+      "area_geo": 15.12109375,
+      "tile_index": 1885,
+      "tile_offset": [
+        90304,
+        4896
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001885_x90304_y4896_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56488.8125,
+        13603.890625,
+        56670.5703125,
+        14110.94140625
+      ],
+      "bbox_geo": [
+        803595.5,
+        611037.0,
+        803598.5,
+        611028.6875
+      ],
+      "center_pixel": [
+        56579.69140625,
+        13857.416015625
+      ],
+      "center_geo": [
+        803597.0,
+        611032.875
+      ],
+      "confidence": 0.16581584513187408,
+      "class": "plastic-waste",
+      "area_pixel": 92160.4375,
+      "area_geo": 24.9375,
+      "tile_index": 4878,
+      "tile_offset": [
+        56032,
+        13600
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004878_x56032_y13600_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17952.0,
+        20781.45703125,
+        18371.05859375,
+        21312.0
+      ],
+      "bbox_geo": [
+        802961.8125,
+        610918.9375,
+        802968.6875,
+        610910.25
+      ],
+      "center_pixel": [
+        18161.529296875,
+        21046.728515625
+      ],
+      "center_geo": [
+        802965.25,
+        610914.625
+      ],
+      "confidence": 0.16547389328479767,
+      "class": "plastic-waste",
+      "area_pixel": 222328.59375,
+      "area_geo": 59.7265625,
+      "tile_index": 7291,
+      "tile_offset": [
+        17952,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007291_x17952_y20672_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101107.9296875,
+        2063.14013671875,
+        101279.875,
+        2270.966796875
+      ],
+      "bbox_geo": [
+        804329.25,
+        611226.75,
+        804332.0625,
+        611223.3125
+      ],
+      "center_pixel": [
+        101193.90625,
+        2167.053466796875
+      ],
+      "center_geo": [
+        804330.625,
+        611225.0
+      ],
+      "confidence": 0.16481073200702667,
+      "class": "plastic-waste",
+      "area_pixel": 35734.8203125,
+      "area_geo": 9.66796875,
+      "tile_index": 758,
+      "tile_offset": [
+        100640,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000758_x100640_y1632_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        61545.88671875,
+        10676.587890625,
+        61714.578125,
+        10832.302734375
+      ],
+      "bbox_geo": [
+        803678.625,
+        611085.0625,
+        803681.4375,
+        611082.5
+      ],
+      "center_pixel": [
+        61630.234375,
+        10754.4453125
+      ],
+      "center_geo": [
+        803680.0,
+        611083.75
+      ],
+      "confidence": 0.16466251015663147,
+      "class": "plastic-waste",
+      "area_pixel": 26267.755859375,
+      "area_geo": 7.20703125,
+      "tile_index": 3742,
+      "tile_offset": [
+        61472,
+        10336
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003742_x61472_y10336_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        88958.875,
+        4439.921875,
+        89309.1171875,
+        4987.20703125
+      ],
+      "bbox_geo": [
+        804129.4375,
+        611187.6875,
+        804135.25,
+        611178.6875
+      ],
+      "center_pixel": [
+        89134.0,
+        4713.564453125
+      ],
+      "center_geo": [
+        804132.375,
+        611183.1875
+      ],
+      "confidence": 0.16451826691627502,
+      "class": "plastic-waste",
+      "area_pixel": 191682.34375,
+      "area_geo": 52.3125,
+      "tile_index": 1691,
+      "tile_offset": [
+        88672,
+        4352
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001691_x88672_y4352_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        13626.560546875,
+        20263.498046875,
+        13660.8466796875,
+        20311.455078125
+      ],
+      "bbox_geo": [
+        802890.6875,
+        610927.4375,
+        802891.25,
+        610926.6875
+      ],
+      "center_pixel": [
+        13643.703125,
+        20287.4765625
+      ],
+      "center_geo": [
+        802891.0,
+        610927.0625
+      ],
+      "confidence": 0.16416355967521667,
+      "class": "plastic-waste",
+      "area_pixel": 1644.2611083984375,
+      "area_geo": 0.421875,
+      "tile_index": 7091,
+      "tile_offset": [
+        13056,
+        20128
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007091_x13056_y20128_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        27200.0,
+        16864.0,
+        27478.501953125,
+        16954.10546875
+      ],
+      "bbox_geo": [
+        803113.875,
+        610983.375,
+        803118.4375,
+        610981.875
+      ],
+      "center_pixel": [
+        27339.25,
+        16909.052734375
+      ],
+      "center_geo": [
+        803116.125,
+        610982.625
+      ],
+      "confidence": 0.163908913731575,
+      "class": "plastic-waste",
+      "area_pixel": 25094.548828125,
+      "area_geo": 6.84375,
+      "tile_index": 5971,
+      "tile_offset": [
+        27200,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005971_x27200_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        27015.9609375,
+        17045.130859375,
+        27120.185546875,
+        17164.359375
+      ],
+      "bbox_geo": [
+        803110.875,
+        610980.375,
+        803112.5625,
+        610978.4375
+      ],
+      "center_pixel": [
+        27068.07421875,
+        17104.74609375
+      ],
+      "center_geo": [
+        803111.75,
+        610979.375
+      ],
+      "confidence": 0.16340136528015137,
+      "class": "plastic-waste",
+      "area_pixel": 12426.5458984375,
+      "area_geo": 3.26953125,
+      "tile_index": 5970,
+      "tile_offset": [
+        26656,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005970_x26656_y16864_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        67456.0,
+        9792.7578125,
+        67804.953125,
+        10117.546875
+      ],
+      "bbox_geo": [
+        803775.875,
+        611099.6875,
+        803781.625,
+        611094.3125
+      ],
+      "center_pixel": [
+        67630.4765625,
+        9955.15234375
+      ],
+      "center_geo": [
+        803778.75,
+        611097.0
+      ],
+      "confidence": 0.1631280928850174,
+      "class": "plastic-waste",
+      "area_pixel": 113336.15625,
+      "area_geo": 30.90625,
+      "tile_index": 3562,
+      "tile_offset": [
+        67456,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003562_x67456_y9792_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        11184.5625,
+        22004.388671875,
+        11431.7939453125,
+        22189.1015625
+      ],
+      "bbox_geo": [
+        802850.5,
+        610898.875,
+        802854.5625,
+        610895.8125
+      ],
+      "center_pixel": [
+        11308.177734375,
+        22096.74609375
+      ],
+      "center_geo": [
+        802852.5,
+        610897.375
+      ],
+      "confidence": 0.16250842809677124,
+      "class": "plastic-waste",
+      "area_pixel": 45666.8359375,
+      "area_geo": 12.44140625,
+      "tile_index": 7660,
+      "tile_offset": [
+        10880,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007660_x10880_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        25259.75390625,
+        18469.390625,
+        25473.390625,
+        18591.421875
+      ],
+      "bbox_geo": [
+        803082.0,
+        610957.0,
+        803085.5,
+        610955.0
+      ],
+      "center_pixel": [
+        25366.572265625,
+        18530.40625
+      ],
+      "center_geo": [
+        803083.75,
+        610956.0
+      ],
+      "confidence": 0.16197168827056885,
+      "class": "plastic-waste",
+      "area_pixel": 26070.35546875,
+      "area_geo": 7.0,
+      "tile_index": 6349,
+      "tile_offset": [
+        25024,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006349_x25024_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56576.15625,
+        14146.13671875,
+        56855.42578125,
+        14640.3544921875
+      ],
+      "bbox_geo": [
+        803596.9375,
+        611028.0,
+        803601.5625,
+        611019.875
+      ],
+      "center_pixel": [
+        56715.7890625,
+        14393.24609375
+      ],
+      "center_geo": [
+        803599.25,
+        611023.9375
+      ],
+      "confidence": 0.16196927428245544,
+      "class": "plastic-waste",
+      "area_pixel": 138019.96875,
+      "area_geo": 37.578125,
+      "tile_index": 5070,
+      "tile_offset": [
+        56576,
+        14144
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005070_x56576_y14144_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        75694.5,
+        10882.0615234375,
+        76150.59375,
+        11492.6494140625
+      ],
+      "bbox_geo": [
+        803911.375,
+        611081.6875,
+        803918.875,
+        611071.6875
+      ],
+      "center_pixel": [
+        75922.546875,
+        11187.35546875
+      ],
+      "center_geo": [
+        803915.125,
+        611076.6875
+      ],
+      "confidence": 0.16169457137584686,
+      "class": "plastic-waste",
+      "area_pixel": 278485.3125,
+      "area_geo": 75.0,
+      "tile_index": 3959,
+      "tile_offset": [
+        75616,
+        10880
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003959_x75616_y10880_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        12982.34375,
+        21760.0,
+        13151.9970703125,
+        21899.2890625
+      ],
+      "bbox_geo": [
+        802880.125,
+        610902.875,
+        802882.875,
+        610900.5625
+      ],
+      "center_pixel": [
+        13067.169921875,
+        21829.64453125
+      ],
+      "center_geo": [
+        802881.5,
+        610901.75
+      ],
+      "confidence": 0.16148778796195984,
+      "class": "plastic-waste",
+      "area_pixel": 23630.8515625,
+      "area_geo": 6.359375,
+      "tile_index": 7663,
+      "tile_offset": [
+        12512,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007663_x12512_y21760_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38624.20703125,
+        16320.0,
+        38821.84375,
+        16534.84375
+      ],
+      "bbox_geo": [
+        803301.75,
+        610992.3125,
+        803305.0,
+        610988.75
+      ],
+      "center_pixel": [
+        38723.0234375,
+        16427.421875
+      ],
+      "center_geo": [
+        803303.375,
+        610990.5
+      ],
+      "confidence": 0.16148215532302856,
+      "class": "plastic-waste",
+      "area_pixel": 42461.015625,
+      "area_geo": 11.578125,
+      "tile_index": 5801,
+      "tile_offset": [
+        38624,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005801_x38624_y16320_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        48092.62890625,
+        17408.0,
+        48327.0078125,
+        17631.380859375
+      ],
+      "bbox_geo": [
+        803457.4375,
+        610974.4375,
+        803461.3125,
+        610970.75
+      ],
+      "center_pixel": [
+        48209.8203125,
+        17519.69140625
+      ],
+      "center_geo": [
+        803459.375,
+        610972.625
+      ],
+      "confidence": 0.16131746768951416,
+      "class": "plastic-waste",
+      "area_pixel": 52355.76171875,
+      "area_geo": 14.2890625,
+      "tile_index": 6200,
+      "tile_offset": [
+        47872,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006200_x47872_y17408_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        10588.0302734375,
+        21705.94140625,
+        10713.4970703125,
+        21851.126953125
+      ],
+      "bbox_geo": [
+        802840.6875,
+        610903.75,
+        802842.75,
+        610901.375
+      ],
+      "center_pixel": [
+        10650.763671875,
+        21778.53515625
+      ],
+      "center_geo": [
+        802841.75,
+        610902.5625
+      ],
+      "confidence": 0.16101689636707306,
+      "class": "plastic-waste",
+      "area_pixel": 18215.96484375,
+      "area_geo": 4.8984375,
+      "tile_index": 7468,
+      "tile_offset": [
+        10336,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007468_x10336_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        78550.90625,
+        7725.2451171875,
+        78587.4296875,
+        7759.57763671875
+      ],
+      "bbox_geo": [
+        803958.3125,
+        611133.625,
+        803958.875,
+        611133.0625
+      ],
+      "center_pixel": [
+        78569.171875,
+        7742.4111328125
+      ],
+      "center_geo": [
+        803958.625,
+        611133.375
+      ],
+      "confidence": 0.16086934506893158,
+      "class": "plastic-waste",
+      "area_pixel": 1253.941650390625,
+      "area_geo": 0.31640625,
+      "tile_index": 2818,
+      "tile_offset": [
+        78336,
+        7616
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002818_x78336_y7616_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        33700.73046875,
+        16751.373046875,
+        33756.29296875,
+        16820.763671875
+      ],
+      "bbox_geo": [
+        803220.75,
+        610985.25,
+        803221.6875,
+        610984.0625
+      ],
+      "center_pixel": [
+        33728.51171875,
+        16786.068359375
+      ],
+      "center_geo": [
+        803221.25,
+        610984.625
+      ],
+      "confidence": 0.16076688468456268,
+      "class": "plastic-waste",
+      "area_pixel": 3855.5166015625,
+      "area_geo": 1.11328125,
+      "tile_index": 5791,
+      "tile_offset": [
+        33184,
+        16320
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005791_x33184_y16320_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        67354.8671875,
+        9794.3466796875,
+        67551.078125,
+        10141.48828125
+      ],
+      "bbox_geo": [
+        803774.1875,
+        611099.625,
+        803777.375,
+        611093.9375
+      ],
+      "center_pixel": [
+        67452.96875,
+        9967.91796875
+      ],
+      "center_geo": [
+        803775.75,
+        611096.75
+      ],
+      "confidence": 0.1605471670627594,
+      "class": "plastic-waste",
+      "area_pixel": 68112.9765625,
+      "area_geo": 18.12890625,
+      "tile_index": 3561,
+      "tile_offset": [
+        66912,
+        9792
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003561_x66912_y9792_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        62914.48046875,
+        10647.9111328125,
+        63197.1640625,
+        10975.1328125
+      ],
+      "bbox_geo": [
+        803701.125,
+        611085.5625,
+        803705.8125,
+        611080.1875
+      ],
+      "center_pixel": [
+        63055.8203125,
+        10811.521484375
+      ],
+      "center_geo": [
+        803703.5,
+        611082.875
+      ],
+      "confidence": 0.15932387113571167,
+      "class": "plastic-waste",
+      "area_pixel": 92500.203125,
+      "area_geo": 25.1953125,
+      "tile_index": 3744,
+      "tile_offset": [
+        62560,
+        10336
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003744_x62560_y10336_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        8704.8515625,
+        21544.02734375,
+        8907.6845703125,
+        21844.892578125
+      ],
+      "bbox_geo": [
+        802809.75,
+        610906.4375,
+        802813.125,
+        610901.5
+      ],
+      "center_pixel": [
+        8806.267578125,
+        21694.4609375
+      ],
+      "center_geo": [
+        802811.4375,
+        610904.0
+      ],
+      "confidence": 0.15913361310958862,
+      "class": "plastic-waste",
+      "area_pixel": 61025.40234375,
+      "area_geo": 16.6640625,
+      "tile_index": 7465,
+      "tile_offset": [
+        8704,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007465_x8704_y21216_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        16909.77734375,
+        20672.75390625,
+        16959.73828125,
+        20775.404296875
+      ],
+      "bbox_geo": [
+        802944.625,
+        610920.75,
+        802945.4375,
+        610919.0625
+      ],
+      "center_pixel": [
+        16934.7578125,
+        20724.078125
+      ],
+      "center_geo": [
+        802945.0,
+        610919.875
+      ],
+      "confidence": 0.15883512794971466,
+      "class": "plastic-waste",
+      "area_pixel": 5128.509765625,
+      "area_geo": 1.37109375,
+      "tile_index": 7288,
+      "tile_offset": [
+        16320,
+        20672
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007288_x16320_y20672_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47872.0,
+        18032.759765625,
+        48237.171875,
+        18591.0703125
+      ],
+      "bbox_geo": [
+        803453.8125,
+        610964.1875,
+        803459.8125,
+        610955.0
+      ],
+      "center_pixel": [
+        48054.5859375,
+        18311.9140625
+      ],
+      "center_geo": [
+        803456.8125,
+        610959.625
+      ],
+      "confidence": 0.15849164128303528,
+      "class": "plastic-waste",
+      "area_pixel": 203879.3125,
+      "area_geo": 55.125,
+      "tile_index": 6391,
+      "tile_offset": [
+        47872,
+        17952
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006391_x47872_y17952_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        544.0462646484375,
+        24095.498046875,
+        724.0547485351562,
+        24574.298828125
+      ],
+      "bbox_geo": [
+        802675.5625,
+        610864.4375,
+        802678.5,
+        610856.5625
+      ],
+      "center_pixel": [
+        634.050537109375,
+        24334.8984375
+      ],
+      "center_geo": [
+        802677.0,
+        610860.5
+      ],
+      "confidence": 0.15833497047424316,
+      "class": "plastic-waste",
+      "area_pixel": 86188.203125,
+      "area_geo": 23.1328125,
+      "tile_index": 8405,
+      "tile_offset": [
+        544,
+        23936
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_008405_x544_y23936_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101184.0,
+        1088.03564453125,
+        101446.796875,
+        1283.727783203125
+      ],
+      "bbox_geo": [
+        804330.5,
+        611242.8125,
+        804334.8125,
+        611239.625
+      ],
+      "center_pixel": [
+        101315.3984375,
+        1185.8817138671875
+      ],
+      "center_geo": [
+        804332.625,
+        611241.25
+      ],
+      "confidence": 0.1582162231206894,
+      "class": "plastic-waste",
+      "area_pixel": 51427.28125,
+      "area_geo": 13.74609375,
+      "tile_index": 568,
+      "tile_offset": [
+        101184,
+        1088
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000568_x101184_y1088_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        96194.5859375,
+        3808.44921875,
+        96383.1328125,
+        4285.60205078125
+      ],
+      "bbox_geo": [
+        804248.4375,
+        611198.0625,
+        804251.5,
+        611190.1875
+      ],
+      "center_pixel": [
+        96288.859375,
+        4047.025634765625
+      ],
+      "center_geo": [
+        804250.0,
+        611194.125
+      ],
+      "confidence": 0.15805767476558685,
+      "class": "plastic-waste",
+      "area_pixel": 89965.671875,
+      "area_geo": 24.1171875,
+      "tile_index": 1513,
+      "tile_offset": [
+        95744,
+        3808
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001513_x95744_y3808_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        102657.15625,
+        1680.7496337890625,
+        102803.0703125,
+        1902.9501953125
+      ],
+      "bbox_geo": [
+        804354.6875,
+        611233.0,
+        804357.125,
+        611229.375
+      ],
+      "center_pixel": [
+        102730.109375,
+        1791.849853515625
+      ],
+      "center_geo": [
+        804355.875,
+        611231.1875
+      ],
+      "confidence": 0.15731003880500793,
+      "class": "plastic-waste",
+      "area_pixel": 32422.1875,
+      "area_geo": 8.8359375,
+      "tile_index": 761,
+      "tile_offset": [
+        102272,
+        1632
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000761_x102272_y1632_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        56603.40234375,
+        15776.7880859375,
+        57213.71875,
+        16392.21875
+      ],
+      "bbox_geo": [
+        803597.375,
+        611001.25,
+        803607.4375,
+        610991.125
+      ],
+      "center_pixel": [
+        56908.5625,
+        16084.50390625
+      ],
+      "center_geo": [
+        803602.375,
+        610996.1875
+      ],
+      "confidence": 0.15725786983966827,
+      "class": "plastic-waste",
+      "area_pixel": 375607.4375,
+      "area_geo": 101.8828125,
+      "tile_index": 5643,
+      "tile_offset": [
+        56576,
+        15776
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005643_x56576_y15776_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        29174.17578125,
+        22193.91015625,
+        29395.86328125,
+        22400.0
+      ],
+      "bbox_geo": [
+        803146.3125,
+        610895.75,
+        803149.9375,
+        610892.375
+      ],
+      "center_pixel": [
+        29285.01953125,
+        22296.955078125
+      ],
+      "center_geo": [
+        803148.125,
+        610894.0625
+      ],
+      "confidence": 0.1565002053976059,
+      "class": "plastic-waste",
+      "area_pixel": 45687.54296875,
+      "area_geo": 12.234375,
+      "tile_index": 7693,
+      "tile_offset": [
+        28832,
+        21760
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007693_x28832_y21760_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        101115.71875,
+        2176.0,
+        101279.8359375,
+        2710.133056640625
+      ],
+      "bbox_geo": [
+        804329.375,
+        611224.875,
+        804332.0625,
+        611216.0625
+      ],
+      "center_pixel": [
+        101197.78125,
+        2443.06640625
+      ],
+      "center_geo": [
+        804330.75,
+        611220.5
+      ],
+      "confidence": 0.1559072881937027,
+      "class": "plastic-waste",
+      "area_pixel": 87660.4140625,
+      "area_geo": 23.68359375,
+      "tile_index": 949,
+      "tile_offset": [
+        100640,
+        2176
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000949_x100640_y2176_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        84864.34375,
+        8161.2353515625,
+        85095.84375,
+        8710.17578125
+      ],
+      "bbox_geo": [
+        804062.125,
+        611126.5,
+        804065.9375,
+        611117.4375
+      ],
+      "center_pixel": [
+        84980.09375,
+        8435.705078125
+      ],
+      "center_geo": [
+        804064.0,
+        611122.0
+      ],
+      "confidence": 0.15581834316253662,
+      "class": "plastic-waste",
+      "area_pixel": 127079.7109375,
+      "area_geo": 34.55078125,
+      "tile_index": 3021,
+      "tile_offset": [
+        84864,
+        8160
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003021_x84864_y8160_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        37560.6796875,
+        19585.712890625,
+        37988.546875,
+        20196.90234375
+      ],
+      "bbox_geo": [
+        803284.1875,
+        610938.625,
+        803291.25,
+        610928.5625
+      ],
+      "center_pixel": [
+        37774.61328125,
+        19891.30859375
+      ],
+      "center_geo": [
+        803287.75,
+        610933.625
+      ],
+      "confidence": 0.15580852329730988,
+      "class": "plastic-waste",
+      "area_pixel": 261507.90625,
+      "area_geo": 71.06640625,
+      "tile_index": 6945,
+      "tile_offset": [
+        37536,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006945_x37536_y19584_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        38538.0703125,
+        21273.58984375,
+        38575.3515625,
+        21309.68359375
+      ],
+      "bbox_geo": [
+        803300.375,
+        610910.875,
+        803300.9375,
+        610910.25
+      ],
+      "center_pixel": [
+        38556.7109375,
+        21291.63671875
+      ],
+      "center_geo": [
+        803300.625,
+        610910.5625
+      ],
+      "confidence": 0.15580640733242035,
+      "class": "plastic-waste",
+      "area_pixel": 1345.6201171875,
+      "area_geo": 0.3515625,
+      "tile_index": 7519,
+      "tile_offset": [
+        38080,
+        21216
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_007519_x38080_y21216_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        66368.0,
+        13057.037109375,
+        66774.109375,
+        13666.0947265625
+      ],
+      "bbox_geo": [
+        803757.9375,
+        611046.0,
+        803764.625,
+        611035.9375
+      ],
+      "center_pixel": [
+        66571.0546875,
+        13361.56640625
+      ],
+      "center_geo": [
+        803761.25,
+        611041.0
+      ],
+      "confidence": 0.1554572880268097,
+      "class": "plastic-waste",
+      "area_pixel": 247344.015625,
+      "area_geo": 67.29296875,
+      "tile_index": 4706,
+      "tile_offset": [
+        66368,
+        13056
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004706_x66368_y13056_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        75616.8671875,
+        8270.0712890625,
+        75932.65625,
+        8799.810546875
+      ],
+      "bbox_geo": [
+        803910.0625,
+        611124.6875,
+        803915.25,
+        611116.0
+      ],
+      "center_pixel": [
+        75774.765625,
+        8534.94140625
+      ],
+      "center_geo": [
+        803912.625,
+        611120.375
+      ],
+      "confidence": 0.1551687866449356,
+      "class": "plastic-waste",
+      "area_pixel": 167285.859375,
+      "area_geo": 45.06640625,
+      "tile_index": 3004,
+      "tile_offset": [
+        75616,
+        8160
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003004_x75616_y8160_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        21788.296875,
+        19216.400390625,
+        21855.78125,
+        19320.53515625
+      ],
+      "bbox_geo": [
+        803024.9375,
+        610944.6875,
+        803026.0,
+        610942.9375
+      ],
+      "center_pixel": [
+        21822.0390625,
+        19268.46875
+      ],
+      "center_geo": [
+        803025.5,
+        610943.8125
+      ],
+      "confidence": 0.15381638705730438,
+      "class": "plastic-waste",
+      "area_pixel": 7027.4697265625,
+      "area_geo": 1.859375,
+      "tile_index": 6724,
+      "tile_offset": [
+        21216,
+        19040
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006724_x21216_y19040_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        17170.408203125,
+        19584.0,
+        17499.1875,
+        20094.4140625
+      ],
+      "bbox_geo": [
+        802949.0,
+        610938.625,
+        802954.375,
+        610930.25
+      ],
+      "center_pixel": [
+        17334.796875,
+        19839.20703125
+      ],
+      "center_geo": [
+        802951.6875,
+        610934.4375
+      ],
+      "confidence": 0.15379834175109863,
+      "class": "plastic-waste",
+      "area_pixel": 167813.578125,
+      "area_geo": 45.015625,
+      "tile_index": 6907,
+      "tile_offset": [
+        16864,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006907_x16864_y19584_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        53856.0,
+        11675.873046875,
+        54018.1875,
+        12061.4482421875
+      ],
+      "bbox_geo": [
+        803552.1875,
+        611068.6875,
+        803554.875,
+        611062.3125
+      ],
+      "center_pixel": [
+        53937.09375,
+        11868.66015625
+      ],
+      "center_geo": [
+        803553.5,
+        611065.5
+      ],
+      "confidence": 0.15356992185115814,
+      "class": "plastic-waste",
+      "area_pixel": 62535.4765625,
+      "area_geo": 17.1328125,
+      "tile_index": 4110,
+      "tile_offset": [
+        53856,
+        11424
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_004110_x53856_y11424_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47328.06640625,
+        17408.0,
+        47410.67578125,
+        17515.376953125
+      ],
+      "bbox_geo": [
+        803444.875,
+        610974.4375,
+        803446.25,
+        610972.6875
+      ],
+      "center_pixel": [
+        47369.37109375,
+        17461.6875
+      ],
+      "center_geo": [
+        803445.5625,
+        610973.5625
+      ],
+      "confidence": 0.15339839458465576,
+      "class": "plastic-waste",
+      "area_pixel": 8870.3427734375,
+      "area_geo": 2.40625,
+      "tile_index": 6199,
+      "tile_offset": [
+        47328,
+        17408
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006199_x47328_y17408_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        65825.546875,
+        10880.8134765625,
+        66447.296875,
+        11500.3994140625
+      ],
+      "bbox_geo": [
+        803749.0,
+        611081.75,
+        803759.25,
+        611071.5625
+      ],
+      "center_pixel": [
+        66136.421875,
+        11190.6064453125
+      ],
+      "center_geo": [
+        803754.125,
+        611076.625
+      ],
+      "confidence": 0.15324731171131134,
+      "class": "plastic-waste",
+      "area_pixel": 385227.5625,
+      "area_geo": 104.421875,
+      "tile_index": 3941,
+      "tile_offset": [
+        65824,
+        10880
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_003941_x65824_y10880_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        100640.328125,
+        544.0,
+        100851.859375,
+        691.5978393554688
+      ],
+      "bbox_geo": [
+        804321.5625,
+        611251.75,
+        804325.0625,
+        611249.3125
+      ],
+      "center_pixel": [
+        100746.09375,
+        617.7989501953125
+      ],
+      "center_geo": [
+        804323.3125,
+        611250.5
+      ],
+      "confidence": 0.15205596387386322,
+      "class": "plastic-waste",
+      "area_pixel": 31221.5546875,
+      "area_geo": 8.53125,
+      "tile_index": 376,
+      "tile_offset": [
+        100640,
+        544
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_000376_x100640_y544_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        48416.33203125,
+        19510.234375,
+        48640.6015625,
+        19680.0
+      ],
+      "bbox_geo": [
+        803462.75,
+        610939.8125,
+        803466.4375,
+        610937.0625
+      ],
+      "center_pixel": [
+        48528.46875,
+        19595.1171875
+      ],
+      "center_geo": [
+        803464.625,
+        610938.4375
+      ],
+      "confidence": 0.15173207223415375,
+      "class": "plastic-waste",
+      "area_pixel": 38073.2578125,
+      "area_geo": 10.140625,
+      "tile_index": 6774,
+      "tile_offset": [
+        48416,
+        19040
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006774_x48416_y19040_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        30911.125,
+        16867.6328125,
+        31103.568359375,
+        17145.271484375
+      ],
+      "bbox_geo": [
+        803174.9375,
+        610983.3125,
+        803178.0625,
+        610978.75
+      ],
+      "center_pixel": [
+        31007.34765625,
+        17006.453125
+      ],
+      "center_geo": [
+        803176.5,
+        610981.0
+      ],
+      "confidence": 0.1515452265739441,
+      "class": "plastic-waste",
+      "area_pixel": 53429.71875,
+      "area_geo": 14.2578125,
+      "tile_index": 5977,
+      "tile_offset": [
+        30464,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_005977_x30464_y16864_dets3.jpg"
+    },
+    {
+      "bbox_pixel": [
+        47328.0,
+        17212.14453125,
+        47410.75,
+        17496.529296875
+      ],
+      "bbox_geo": [
+        803444.875,
+        610977.625,
+        803446.25,
+        610973.0
+      ],
+      "center_pixel": [
+        47369.375,
+        17354.3359375
+      ],
+      "center_geo": [
+        803445.5625,
+        610975.3125
+      ],
+      "confidence": 0.15140725672245026,
+      "class": "plastic-waste",
+      "area_pixel": 23532.83984375,
+      "area_geo": 6.359375,
+      "tile_index": 6008,
+      "tile_offset": [
+        47328,
+        16864
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006008_x47328_y16864_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        87040.671875,
+        5443.01806640625,
+        87251.5703125,
+        5868.77685546875
+      ],
+      "bbox_geo": [
+        804097.875,
+        611171.1875,
+        804101.375,
+        611164.1875
+      ],
+      "center_pixel": [
+        87146.125,
+        5655.8974609375
+      ],
+      "center_geo": [
+        804099.625,
+        611167.6875
+      ],
+      "confidence": 0.1511998027563095,
+      "class": "plastic-waste",
+      "area_pixel": 89791.8671875,
+      "area_geo": 24.5,
+      "tile_index": 2070,
+      "tile_offset": [
+        87040,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002070_x87040_y5440_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        20052.232421875,
+        19650.328125,
+        20223.84375,
+        19846.60546875
+      ],
+      "bbox_geo": [
+        802996.3125,
+        610937.5625,
+        802999.125,
+        610934.3125
+      ],
+      "center_pixel": [
+        20138.0390625,
+        19748.466796875
+      ],
+      "center_geo": [
+        802997.75,
+        610935.9375
+      ],
+      "confidence": 0.15046946704387665,
+      "class": "plastic-waste",
+      "area_pixel": 33683.4140625,
+      "area_geo": 9.140625,
+      "tile_index": 6912,
+      "tile_offset": [
+        19584,
+        19584
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_006912_x19584_y19584_dets1.jpg"
+    },
+    {
+      "bbox_pixel": [
+        95817.6640625,
+        4144.53564453125,
+        96022.34375,
+        4347.80712890625
+      ],
+      "bbox_geo": [
+        804242.1875,
+        611192.5,
+        804245.5625,
+        611189.1875
+      ],
+      "center_pixel": [
+        95920.0,
+        4246.17138671875
+      ],
+      "center_geo": [
+        804243.875,
+        611190.875
+      ],
+      "confidence": 0.15030811727046967,
+      "class": "plastic-waste",
+      "area_pixel": 41605.54296875,
+      "area_geo": 11.1796875,
+      "tile_index": 1513,
+      "tile_offset": [
+        95744,
+        3808
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_001513_x95744_y3808_dets2.jpg"
+    },
+    {
+      "bbox_pixel": [
+        89773.9140625,
+        5440.13916015625,
+        90398.578125,
+        5566.60986328125
+      ],
+      "bbox_geo": [
+        804142.875,
+        611171.25,
+        804153.125,
+        611169.1875
+      ],
+      "center_pixel": [
+        90086.25,
+        5503.37451171875
+      ],
+      "center_geo": [
+        804148.0,
+        611170.25
+      ],
+      "confidence": 0.1501779854297638,
+      "class": "plastic-waste",
+      "area_pixel": 79001.703125,
+      "area_geo": 21.140625,
+      "tile_index": 2075,
+      "tile_offset": [
+        89760,
+        5440
+      ],
+      "tile_image_path": "runs\\Dansomanclipped\\tiles_with_detections\\Dansomanclipped_tile_002075_x89760_y5440_dets1.jpg"
+    }
+  ]
+}
