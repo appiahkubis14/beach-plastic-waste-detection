@@ -637,15 +637,50 @@ let activeSurveyFilters=new Set();
 let _currentPopupFeature=null;
 
 // ── IndexedDB ops ──────────────────────────────────────────────────────────────
-async function loadAllSurveys(){
-  try{
-    surveys=await db.getAll('surveys');
-    surveys.sort((a,b)=>new Date(b.date)-new Date(a.date));
-    // Assign colors for old entries that might be missing color
-    let usedCount=0;
-    surveys.forEach(s=>{if(!s.color){s.color=SURVEY_COLORS[usedCount%SURVEY_COLORS.length];usedCount++}});
-    _colorIdx=surveys.length%SURVEY_COLORS.length;
-  }catch(e){surveys=[];console.error(e)}
+// async function loadAllSurveys(){
+//   try{
+//     surveys=await db.getAll('surveys');
+//     surveys.sort((a,b)=>new Date(b.date)-new Date(a.date));
+//     // Assign colors for old entries that might be missing color
+//     let usedCount=0;
+//     surveys.forEach(s=>{if(!s.color){s.color=SURVEY_COLORS[usedCount%SURVEY_COLORS.length];usedCount++}});
+//     _colorIdx=surveys.length%SURVEY_COLORS.length;
+//   }catch(e){surveys=[];console.error(e)}
+//   rebuildAllFeatures();
+//   renderSurveyList();
+//   applyFilters();
+//   updateCharts();
+//   populateTable();
+//   updateStats();
+//   updateSurveyFilterList();
+//   updateLegendSurveys();
+//   if(surveys.length){fitAll();setStat(`${surveys.length} survey(s) · ${allF.length} total detections · data persisted`)}
+//   else setStat('No surveys — upload GeoJSON files to begin');
+// }
+
+const SHEETS_API = 'https://script.google.com/macros/s/AKfycbyenwtWYjwvlcC4kZkdG_uatLmqx6tBO8D-7yxMEGXdPP4w21DdXV6CPFwiWg0MxuYn/exec';
+
+// Modified database operations
+async function loadAllSurveys() {
+  try {
+    setLoad(true);
+    const response = await fetch(`${SHEETS_API}?action=getSurveys`);
+    surveys = await response.json();
+    
+    // Assign colors if missing
+    let usedCount = 0;
+    surveys.forEach(s => {
+      if(!s.color) {
+        s.color = SURVEY_COLORS[usedCount % SURVEY_COLORS.length];
+        usedCount++;
+      }
+    });
+    
+  } catch(e) {
+    console.error('Failed to load from cloud:', e);
+    surveys = [];
+  }
+  
   rebuildAllFeatures();
   renderSurveyList();
   applyFilters();
@@ -654,12 +689,51 @@ async function loadAllSurveys(){
   updateStats();
   updateSurveyFilterList();
   updateLegendSurveys();
-  if(surveys.length){fitAll();setStat(`${surveys.length} survey(s) · ${allF.length} total detections · data persisted`)}
-  else setStat('No surveys — upload GeoJSON files to begin');
+  
+  setLoad(false);
+  
+  if(surveys.length) {
+    fitAll();
+    setStat(`☁️ ${surveys.length} survey(s) · cloud sync active`);
+  } else {
+    setStat('☁️ Connected to cloud - upload surveys to share');
+  }
 }
 
-async function persistSurvey(s){await db.put('surveys',s)}
-async function removeSurveyDB(id){await db.delete('surveys',id)}
+async function persistSurvey(s) {
+  await fetch(SHEETS_API + '?action=addSurvey', {
+    method: 'POST',
+    body: JSON.stringify(s)
+  });
+}
+
+async function removeSurveyDB(id) {
+  await fetch(`${SHEETS_API}?action=deleteSurvey&id=${id}`, {
+    method: 'POST'
+  });
+}
+
+async function storeImageFile(file, filename) {
+  return new Promise(res => {
+    const reader = new FileReader();
+    reader.onload = async ev => {
+      await fetch(SHEETS_API + '?action=addImage', {
+        method: 'POST',
+        body: JSON.stringify({
+          filename,
+          dataUrl: ev.target.result,
+          size: file.size,
+          date: new Date().toISOString()
+        })
+      });
+      res();
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+// async function persistSurvey(s){await db.put('surveys',s)}
+// async function removeSurveyDB(id){await db.delete('surveys',id)}
 
 // ── GeoJSON parse ──────────────────────────────────────────────────────────────
 function parseFeatures(gj,color){
@@ -903,19 +977,34 @@ function getImgFilename(p){
 }
 
 async function showPopup(f,ly){
-  _currentPopupFeature=f;
-  const p=f.properties,c=p.confidence||0,color=p._surveyColor||confCol(c),k=pcls(c);
-  const fn=getImgFilename(p);
-  let imgObj=null;
-  if(fn)imgObj=await db.get('images',fn).catch(()=>null);
+  // _currentPopupFeature=f;
+  // const p=f.properties,c=p.confidence||0,color=p._surveyColor||confCol(c),k=pcls(c);
+  // const fn=getImgFilename(p);
+  // let imgObj=null;
+  // if(fn)imgObj=await db.get('images',fn).catch(()=>null);
 
-  // Build image section
-  let imgSection='';
-  if(p.tile_image_path){
-    if(imgObj&&imgObj.dataUrl){
-      imgSection=`<div class="pop-img"><div class="pop-img-inner"><img src="${imgObj.dataUrl}" style="width:100%;border-radius:6px;display:block" alt="tile"></div><div class="pop-img-name">📍 ${fn}</div><button class="pop-img-btn" onclick="openImgModal()">↗ View full details</button></div>`;
-    } else {
-      imgSection=`<div class="pop-img"><div class="pop-img-placeholder" onclick="openImgModal()"><span style="font-size:24px">🛰</span><span style="font-size:10px;color:var(--ts)">Tile image not uploaded</span><span style="font-size:9px;color:var(--tm)">${fn||''}</span><span style="font-size:9px;color:var(--accent)">Click to upload / view details</span></div><div class="pop-img-name">📂 ${p.tile_image_path}</div></div>`;
+  // // Build image section
+  // let imgSection='';
+  // if(p.tile_image_path){
+  //   if(imgObj&&imgObj.dataUrl){
+  //     imgSection=`<div class="pop-img"><div class="pop-img-inner"><img src="${imgObj.dataUrl}" style="width:100%;border-radius:6px;display:block" alt="tile"></div><div class="pop-img-name">📍 ${fn}</div><button class="pop-img-btn" onclick="openImgModal()">↗ View full details</button></div>`;
+  //   } else {
+  //     imgSection=`<div class="pop-img"><div class="pop-img-placeholder" onclick="openImgModal()"><span style="font-size:24px">🛰</span><span style="font-size:10px;color:var(--ts)">Tile image not uploaded</span><span style="font-size:9px;color:var(--tm)">${fn||''}</span><span style="font-size:9px;color:var(--accent)">Click to upload / view details</span></div><div class="pop-img-name">📂 ${p.tile_image_path}</div></div>`;
+  //   }
+  // }
+
+  _currentPopupFeature = f;
+  const p = f.properties, c = p.confidence || 0, color = p._surveyColor || confCol(c), k = pcls(c);
+  const fn = getImgFilename(p);
+  
+  // Load image from Google Sheets instead of IndexedDB
+  let imgObj = null;
+  if(fn) {
+    try {
+      const response = await fetch(`${SHEETS_API}?action=getImage&filename=${encodeURIComponent(fn)}`);
+      imgObj = await response.json();
+    } catch(e) {
+      console.warn('Failed to load image:', e);
     }
   }
 
@@ -1023,16 +1112,16 @@ async function handleBatchImageUpload(e){
   e.target.value='';
 }
 
-async function storeImageFile(file,filename){
-  return new Promise(res=>{
-    const r=new FileReader();
-    r.onload=async ev=>{
-      try{await db.put('images',{filename,dataUrl:ev.target.result,size:file.size,date:new Date().toISOString()})}catch(e){console.error(e)}
-      res();
-    };
-    r.readAsDataURL(file);
-  });
-}
+// async function storeImageFile(file,filename){
+//   return new Promise(res=>{
+//     const r=new FileReader();
+//     r.onload=async ev=>{
+//       try{await db.put('images',{filename,dataUrl:ev.target.result,size:file.size,date:new Date().toISOString()})}catch(e){console.error(e)}
+//       res();
+//     };
+//     r.readAsDataURL(file);
+//   });
+// }
 
 // ── Survey list UI ─────────────────────────────────────────────────────────────
 function renderSurveyList(){
@@ -1159,6 +1248,9 @@ function updateCharts(){
     data:{labels:['<5m²','5-20m²','>20m²'],datasets:[{data:[sm,md,lg],backgroundColor:['rgba(255,82,82,.7)','rgba(255,171,64,.7)','rgba(0,230,118,.7)'],borderColor:'transparent'}]},
     options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,position:'right',labels:{color:'#7a8ba8',font:{size:9,family:'DM Mono'},boxWidth:9,padding:7}}}}});
 }
+
+
+
 
 // ── Table ──────────────────────────────────────────────────────────────────────
 function populateTable(){
@@ -1415,6 +1507,71 @@ function initResize(){
   document.addEventListener('touchmove',e=>{if(!_isResizing)return;e.preventDefault();const t=e.touches[0];setSBW(Math.max(0,Math.min(getMaxW(),_resizeW0+(t.clientX-_resizeX0))),false)},{passive:false});
   document.addEventListener('touchend',()=>{if(!_isResizing)return;_isResizing=false;rh.classList.remove('active');blocker.style.display='none';snapToNearest()});
 }
+
+function showStorageInfo() {
+  const totalSize = JSON.stringify(surveys).length;
+  const sizeInMB = (totalSize / (1024 * 1024)).toFixed(2);
+  
+  toast(`📦 ${surveys.length} surveys stored locally · ${sizeInMB} MB`);
+}
+
+
+function setStat(msg) {
+  document.getElementById('stxt').textContent = msg;
+}
+
+// Update these calls throughout your code:
+// When surveys load from IndexedDB:
+setStat(`📦 Loaded ${surveys.length} stored surveys · ${allF.length} detections`);
+
+// When new survey is added:
+// setStat(`✅ Saved "${filename}" · ${surveys.length} total surveys stored`);
+
+// When no surveys:
+setStat('📂 Drop GeoJSON files or click Upload to store surveys');
+
+
+// Add this to your stats or tools tab
+function getStorageStats() {
+  const surveysSize = JSON.stringify(surveys).length;
+  const imagesSize = Array.from(document.querySelectorAll('img')).reduce((total, img) => {
+    return total + (img.src.length * 2); // Rough estimate
+  }, 0);
+  
+  const totalSize = surveysSize + imagesSize;
+  const sizeInMB = (totalSize / (1024 * 1024)).toFixed(2);
+  
+  return {
+    surveys: surveys.length,
+    detections: allF.length,
+    sizeMB: sizeInMB,
+    percentUsed: Math.min((totalSize / (50 * 1024 * 1024)) * 100, 100).toFixed(1) // 50MB typical limit
+  };
+}
+
+
+// Add to stats tab HTML:
+/*
+<div class="sec">
+  <div class="stit">Local Storage</div>
+  <div class="sg">
+    <div class="sc">
+      <div class="sl">Stored Surveys</div>
+      <div class="sv ac" id="storage-surveys">—</div>
+    </div>
+    <div class="sc">
+      <div class="sl">Space Used</div>
+      <div class="sv" id="storage-size">—</div>
+    </div>
+    <div class="sc full">
+      <div class="sl">Storage Usage</div>
+      <div style="height:4px;background:var(--bdr);border-radius:2px;margin:8px 0">
+        <div id="storage-bar" style="width:0%;height:100%;background:var(--accent);border-radius:2px"></div>
+      </div>
+    </div>
+  </div>
+</div>
+*/
 
 // ── Boot ───────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded',async()=>{
