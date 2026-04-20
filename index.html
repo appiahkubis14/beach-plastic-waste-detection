@@ -658,17 +658,15 @@ let _currentPopupFeature=null;
 //   else setStat('No surveys — upload GeoJSON files to begin');
 // }
 
-const SHEETS_API = 'https://script.google.com/macros/s/AKfycbyenwtWYjwvlcC4kZkdG_uatLmqx6tBO8D-7yxMEGXdPP4w21DdXV6CPFwiWg0MxuYn/exec';
-
-// Modified database operations
 async function loadAllSurveys() {
   try {
     setLoad(true);
     
-    // Use JSONP instead of fetch
-    const data = await jsonpRequest(`${SHEETS_API}?action=getSurveys`);
-    surveys = data || [];
+    // Load from IndexedDB
+    surveys = await db.getAll('surveys');
+    surveys.sort((a, b) => new Date(b.date) - new Date(a.date));
     
+    // Assign colors if missing
     let usedCount = 0;
     surveys.forEach(s => {
       if(!s.color) {
@@ -677,8 +675,10 @@ async function loadAllSurveys() {
       }
     });
     
+    console.log('📦 Loaded from IndexedDB:', surveys.length, 'surveys');
+    
   } catch(e) {
-    console.error('Failed to load from cloud:', e);
+    console.error('Failed to load from IndexedDB:', e);
     surveys = [];
   }
   
@@ -695,98 +695,45 @@ async function loadAllSurveys() {
   
   if(surveys.length) {
     fitAll();
-    setStat(`☁️ ${surveys.length} survey(s) · cloud sync active`);
+    setStat(`📦 ${surveys.length} survey(s) · ${allF.length} detections`);
   } else {
-    setStat('☁️ Connected to cloud - upload surveys to share');
+    setStat('📦 Ready - upload GeoJSON files to begin');
   }
 }
 
-// JSONP helper function
-function jsonpRequest(url) {
-  return new Promise((resolve, reject) => {
-    const callbackName = 'jsonp_' + Date.now();
-    const script = document.createElement('script');
-    
-    window[callbackName] = (data) => {
-      delete window[callbackName];
-      document.body.removeChild(script);
-      resolve(data);
-    };
-    
-    script.src = url + '&callback=' + callbackName;
-    script.onerror = () => {
-      delete window[callbackName];
-      document.body.removeChild(script);
-      reject(new Error('JSONP request failed'));
-    };
-    
-    document.body.appendChild(script);
-  });
+// Save to IndexedDB
+async function persistSurvey(s) {
+  await db.put('surveys', s);
 }
 
-// For POST requests (addSurvey), use this workaround
-async function persistSurvey(s) {
-  // Create a form and submit it to bypass CORS
-  const form = document.createElement('form');
-  form.method = 'POST';
-  form.action = SHEETS_API + '?action=addSurvey';
-  form.target = 'hidden_iframe';
-  
-  const input = document.createElement('input');
-  input.type = 'hidden';
-  input.name = 'data';
-  input.value = JSON.stringify(s);
-  form.appendChild(input);
-  
-  // Create hidden iframe
-  let iframe = document.getElementById('hidden_iframe');
-  if (!iframe) {
-    iframe = document.createElement('iframe');
-    iframe.id = 'hidden_iframe';
-    iframe.name = 'hidden_iframe';
-    iframe.style.display = 'none';
-    document.body.appendChild(iframe);
-  }
-  
-  form.submit();
-  
-  // Wait a bit for the request to complete
-  await new Promise(resolve => setTimeout(resolve, 1000));
-}
-async function persistSurvey(s) {
-  await fetch(SHEETS_API + '?action=addSurvey', {
-    method: 'POST',
-    body: JSON.stringify(s)
-  });
-}
-
+// Delete from IndexedDB
 async function removeSurveyDB(id) {
-  await fetch(`${SHEETS_API}?action=deleteSurvey&id=${id}`, {
-    method: 'POST'
-  });
+  await db.delete('surveys', id);
 }
 
+// Store images in IndexedDB
 async function storeImageFile(file, filename) {
   return new Promise(res => {
     const reader = new FileReader();
     reader.onload = async ev => {
-      await fetch(SHEETS_API + '?action=addImage', {
-        method: 'POST',
-        body: JSON.stringify({
-          filename,
-          dataUrl: ev.target.result,
-          size: file.size,
+      try {
+        await db.put('images', {
+          filename, 
+          dataUrl: ev.target.result, 
+          size: file.size, 
           date: new Date().toISOString()
-        })
-      });
+        });
+      } catch(e) {
+        console.error('Failed to store image:', e);
+      }
       res();
     };
     reader.readAsDataURL(file);
   });
 }
 
-// async function persistSurvey(s){await db.put('surveys',s)}
-// async function removeSurveyDB(id){await db.delete('surveys',id)}
+async function persistSurvey(s){await db.put('surveys',s)}
+async function removeSurveyDB(id){await db.delete('surveys',id)}
 
 // ── GeoJSON parse ──────────────────────────────────────────────────────────────
 function parseFeatures(gj,color){
@@ -1030,34 +977,19 @@ function getImgFilename(p){
 }
 
 async function showPopup(f,ly){
-  // _currentPopupFeature=f;
-  // const p=f.properties,c=p.confidence||0,color=p._surveyColor||confCol(c),k=pcls(c);
-  // const fn=getImgFilename(p);
-  // let imgObj=null;
-  // if(fn)imgObj=await db.get('images',fn).catch(()=>null);
+  _currentPopupFeature=f;
+  const p=f.properties,c=p.confidence||0,color=p._surveyColor||confCol(c),k=pcls(c);
+  const fn=getImgFilename(p);
+  let imgObj=null;
+  if(fn)imgObj=await db.get('images',fn).catch(()=>null);
 
-  // // Build image section
-  // let imgSection='';
-  // if(p.tile_image_path){
-  //   if(imgObj&&imgObj.dataUrl){
-  //     imgSection=`<div class="pop-img"><div class="pop-img-inner"><img src="${imgObj.dataUrl}" style="width:100%;border-radius:6px;display:block" alt="tile"></div><div class="pop-img-name">📍 ${fn}</div><button class="pop-img-btn" onclick="openImgModal()">↗ View full details</button></div>`;
-  //   } else {
-  //     imgSection=`<div class="pop-img"><div class="pop-img-placeholder" onclick="openImgModal()"><span style="font-size:24px">🛰</span><span style="font-size:10px;color:var(--ts)">Tile image not uploaded</span><span style="font-size:9px;color:var(--tm)">${fn||''}</span><span style="font-size:9px;color:var(--accent)">Click to upload / view details</span></div><div class="pop-img-name">📂 ${p.tile_image_path}</div></div>`;
-  //   }
-  // }
-
-  _currentPopupFeature = f;
-  const p = f.properties, c = p.confidence || 0, color = p._surveyColor || confCol(c), k = pcls(c);
-  const fn = getImgFilename(p);
-  
-  // Load image from Google Sheets instead of IndexedDB
-  let imgObj = null;
-  if(fn) {
-    try {
-      const response = await fetch(`${SHEETS_API}?action=getImage&filename=${encodeURIComponent(fn)}`);
-      imgObj = await response.json();
-    } catch(e) {
-      console.warn('Failed to load image:', e);
+  // Build image section
+  let imgSection='';
+  if(p.tile_image_path){
+    if(imgObj&&imgObj.dataUrl){
+      imgSection=`<div class="pop-img"><div class="pop-img-inner"><img src="${imgObj.dataUrl}" style="width:100%;border-radius:6px;display:block" alt="tile"></div><div class="pop-img-name">📍 ${fn}</div><button class="pop-img-btn" onclick="openImgModal()">↗ View full details</button></div>`;
+    } else {
+      imgSection=`<div class="pop-img"><div class="pop-img-placeholder" onclick="openImgModal()"><span style="font-size:24px">🛰</span><span style="font-size:10px;color:var(--ts)">Tile image not uploaded</span><span style="font-size:9px;color:var(--tm)">${fn||''}</span><span style="font-size:9px;color:var(--accent)">Click to upload / view details</span></div><div class="pop-img-name">📂 ${p.tile_image_path}</div></div>`;
     }
   }
 
@@ -1165,16 +1097,16 @@ async function handleBatchImageUpload(e){
   e.target.value='';
 }
 
-// async function storeImageFile(file,filename){
-//   return new Promise(res=>{
-//     const r=new FileReader();
-//     r.onload=async ev=>{
-//       try{await db.put('images',{filename,dataUrl:ev.target.result,size:file.size,date:new Date().toISOString()})}catch(e){console.error(e)}
-//       res();
-//     };
-//     r.readAsDataURL(file);
-//   });
-// }
+async function storeImageFile(file,filename){
+  return new Promise(res=>{
+    const r=new FileReader();
+    r.onload=async ev=>{
+      try{await db.put('images',{filename,dataUrl:ev.target.result,size:file.size,date:new Date().toISOString()})}catch(e){console.error(e)}
+      res();
+    };
+    r.readAsDataURL(file);
+  });
+}
 
 // ── Survey list UI ─────────────────────────────────────────────────────────────
 function renderSurveyList(){
@@ -1602,6 +1534,7 @@ function getStorageStats() {
   };
 }
 
+https://script.google.com/macros/s/AKfycbwbUga-oOtCptIxsFepl8hkb8RSKOqjJ2d5BvqWk0QWWKuqimrHuhlKCP-pxLd5BYghVA/exec
 
 // Add to stats tab HTML:
 /*
